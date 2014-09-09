@@ -1,0 +1,26 @@
+# Workspace
+*.cywrk.*
+
+# Components
+*.cylib/*.cyprj.*
+*.cylib/CortexM0/
+*.cylib/DP8051/
+
+# Projects
+*.cydsn/*.cyprj.*
+*.cydsn/*.cycdx
+*.cydsn/*.cyfit
+*.cydsn/*.cyversion
+*.cydsn/*.svd
+*.cydsn/*_timing.html
+*.cydsn/autoseltemp/
+*.cydsn/codegentemp/
+*.cydsn/CortexM3/
+*.cydsn/DP8051/
+*.cydsn/Generated_Source/PSoCCreatorExportIDE.xml
+
+# Doxygen generated doc
+*.cydsn/Doc/
+
+# Bak files
+*/*.bak

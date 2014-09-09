@@ -1,0 +1,3343 @@
+Loading plugins phase: Elapsed time ==> 0s.342ms
+Initializing data phase: Elapsed time ==> 2s.685ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -d CY8C5467AXI-LP108 -s C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\Generated_Source\PSoC5 -- -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 3s.434ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.104ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  RxTx example.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -dcpsoc3 RxTx example.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  RxTx example.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -dcpsoc3 RxTx example.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  RxTx example.v
+Program  :   vlogfe
+Options  :    -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -dcpsoc3 -verilog RxTx example.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Tue Sep 09 20:13:03 2014
+
+
+======================================================================
+Compiling:  RxTx example.v
+Program  :   vpp
+Options  :    -yv2 -q10 RxTx example.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Tue Sep 09 20:13:03 2014
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'RxTx example.ctl'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1090, col 55):  Note: Substituting module 'add_vv_vv' for '+'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1099, col 48):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1099, col 77):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1356, col 59):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1391, col 61):  Note: Substituting module 'cmp_vv_vv' for '/='.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1503, col 106):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1559, col 68):  Note: Substituting module 'cmp_vv_vv' for '<'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v (line 1560, col 68):  Note: Substituting module 'cmp_vv_vv' for '<'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  RxTx example.v
+Program  :   tovif
+Options  :    -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -dcpsoc3 -verilog RxTx example.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Tue Sep 09 20:13:04 2014
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\codegentemp\RxTx example.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\codegentemp\RxTx example.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  RxTx example.v
+Program  :   topld
+Options  :    -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -dcpsoc3 -verilog RxTx example.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Tue Sep 09 20:13:05 2014
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\codegentemp\RxTx example.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\codegentemp\RxTx example.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\B_UART_v2_30\B_UART_v2_30.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	\XBEE_UART:BUART:reset_sr\
+	Net_40
+	\XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:b_1\
+	\XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:b_0\
+	\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:gta_0\
+	\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:gta_0\
+	\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:albi_1\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:agbi_1\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:lt_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:gt_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:lti_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:gti_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:albi_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:agbi_0\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xeq\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xlt\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xlte\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xgt\
+	\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xgte\
+	\XBEE_UART:BUART:sRX:MODULE_5:lt\
+	\XBEE_UART:BUART:sRX:MODULE_5:eq\
+	\XBEE_UART:BUART:sRX:MODULE_5:gt\
+	\XBEE_UART:BUART:sRX:MODULE_5:gte\
+	\XBEE_UART:BUART:sRX:MODULE_5:lte\
+	\UART:BUART:HalfDuplexSend\
+	\UART:BUART:FinalAddrMode_2\
+	\UART:BUART:FinalAddrMode_1\
+	\UART:BUART:FinalAddrMode_0\
+	\UART:BUART:reset_sr\
+	Net_80
+	Net_81
+
+
+Deleted 32 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \XBEE_UART:BUART:HalfDuplexSend\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:FinalParityType_1\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:FinalParityType_0\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:FinalAddrMode_2\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:FinalAddrMode_1\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:FinalAddrMode_0\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:tx_ctrl_mark\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing zero to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:tx_status_6\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:tx_status_5\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:tx_status_4\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:rx_count7_bit8_wire\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to one
+Aliasing MODIN2_1 to MODIN1_1
+Aliasing MODIN2_0 to MODIN1_0
+Aliasing \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_1\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_0\ to one
+Aliasing MODIN3_1 to MODIN1_1
+Aliasing MODIN3_0 to MODIN1_0
+Aliasing \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_1\ to one
+Aliasing \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_0\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:rx_status_1\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_6\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_5\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_4\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_6\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_5\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_4\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_3\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_2\ to one
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_1\ to one
+Aliasing \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_0\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_0\ to one
+Aliasing tmpOE__XBEE_RX_net_0 to one
+Aliasing tmpOE__XBEE_TX_net_0 to one
+Aliasing tmpOE__XBEE_RESET_net_0 to one
+Aliasing tmpOE__XBEE_SLEEP_RQ_net_0 to one
+Aliasing tmpOE__XBEE_RTS_net_0 to one
+Aliasing tmpOE__XBEE_CTS_net_0 to one
+Aliasing \UART:BUART:tx_hd_send_break\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:FinalParityType_1\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:FinalParityType_0\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:tx_ctrl_mark\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:tx_status_6\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:tx_status_5\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:tx_status_4\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing tmpOE__Tx_1_net_0 to one
+Aliasing \XBEE_UART:BUART:reset_reg\\D\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing Net_37D to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \XBEE_UART:BUART:rx_break_status\\D\ to \XBEE_UART:BUART:tx_hd_send_break\
+Aliasing \UART:BUART:reset_reg\\D\ to \XBEE_UART:BUART:tx_hd_send_break\
+Removing Lhs of wire \XBEE_UART:Net_61\[2] = \XBEE_UART:Net_9\[1]
+Removing Lhs of wire \XBEE_UART:BUART:HalfDuplexSend\[8] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:FinalParityType_1\[9] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:FinalParityType_0\[10] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:FinalAddrMode_2\[11] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:FinalAddrMode_1\[12] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:FinalAddrMode_0\[13] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:tx_ctrl_mark\[14] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:reset_reg_dp\[15] = \XBEE_UART:BUART:reset_reg\[6]
+Removing Rhs of wire Net_20[22] = \XBEE_UART:BUART:rx_interrupt_out\[23]
+Removing Rhs of wire zero[28] = \XBEE_UART:BUART:tx_hd_send_break\[7]
+Removing Lhs of wire \XBEE_UART:BUART:tx_status_6\[77] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:tx_status_5\[78] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:tx_status_4\[79] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:tx_status_1\[81] = \XBEE_UART:BUART:tx_fifo_empty\[42]
+Removing Lhs of wire \XBEE_UART:BUART:tx_status_3\[83] = \XBEE_UART:BUART:tx_fifo_notfull\[41]
+Removing Lhs of wire \XBEE_UART:BUART:rx_count7_bit8_wire\[143] = zero[28]
+Removing Rhs of wire add_vv_vv_MODGEN_1_1[151] = \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:s_1\[162]
+Removing Rhs of wire add_vv_vv_MODGEN_1_0[153] = \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:s_0\[163]
+Removing Lhs of wire cmp_vv_vv_MODGEN_2[154] = \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_0\[179]
+Removing Lhs of wire cmp_vv_vv_MODGEN_3[155] = \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_0\[193]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:a_1\[156] = MODIN1_1[157]
+Removing Rhs of wire MODIN1_1[157] = \XBEE_UART:BUART:pollcount_1\[149]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:a_0\[158] = MODIN1_0[159]
+Removing Rhs of wire MODIN1_0[159] = \XBEE_UART:BUART:pollcount_0\[152]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[165] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[166] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:newa_1\[167] = MODIN1_1[157]
+Removing Lhs of wire MODIN2_1[168] = MODIN1_1[157]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:newa_0\[169] = MODIN1_0[159]
+Removing Lhs of wire MODIN2_0[170] = MODIN1_0[159]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_1\[171] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:newb_0\[172] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:dataa_1\[173] = MODIN1_1[157]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:dataa_0\[174] = MODIN1_0[159]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:datab_1\[175] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:datab_0\[176] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:newa_1\[181] = MODIN1_1[157]
+Removing Lhs of wire MODIN3_1[182] = MODIN1_1[157]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:newa_0\[183] = MODIN1_0[159]
+Removing Lhs of wire MODIN3_0[184] = MODIN1_0[159]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_1\[185] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:newb_0\[186] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:dataa_1\[187] = MODIN1_1[157]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:dataa_0\[188] = MODIN1_0[159]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:datab_1\[189] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:datab_0\[190] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:rx_status_1\[197] = zero[28]
+Removing Rhs of wire \XBEE_UART:BUART:rx_status_2\[198] = \XBEE_UART:BUART:rx_parity_error_status\[199]
+Removing Rhs of wire \XBEE_UART:BUART:rx_status_3\[200] = \XBEE_UART:BUART:rx_stop_bit_error\[201]
+Removing Rhs of wire Net_36[206] = \XBEE_UART:BUART:rx_fifofull\[110]
+Removing Lhs of wire cmp_vv_vv_MODGEN_4[211] = \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_0\[260]
+Removing Lhs of wire cmp_vv_vv_MODGEN_5[215] = \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xneq\[282]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_6\[216] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_5\[217] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_4\[218] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_3\[219] = MODIN4_6[220]
+Removing Rhs of wire MODIN4_6[220] = \XBEE_UART:BUART:rx_count_6\[138]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_2\[221] = MODIN4_5[222]
+Removing Rhs of wire MODIN4_5[222] = \XBEE_UART:BUART:rx_count_5\[139]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_1\[223] = MODIN4_4[224]
+Removing Rhs of wire MODIN4_4[224] = \XBEE_UART:BUART:rx_count_4\[140]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newa_0\[225] = MODIN4_3[226]
+Removing Rhs of wire MODIN4_3[226] = \XBEE_UART:BUART:rx_count_3\[141]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_6\[227] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_5\[228] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_4\[229] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_3\[230] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_2\[231] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_1\[232] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:newb_0\[233] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_6\[234] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_5\[235] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_4\[236] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_3\[237] = MODIN4_6[220]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_2\[238] = MODIN4_5[222]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_1\[239] = MODIN4_4[224]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:dataa_0\[240] = MODIN4_3[226]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_6\[241] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_5\[242] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_4\[243] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_3\[244] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_2\[245] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_1\[246] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_4:g2:a0:datab_0\[247] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:newa_0\[262] = \XBEE_UART:BUART:rx_postpoll\[97]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:newb_0\[263] = \XBEE_UART:BUART:rx_parity_bit\[214]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:dataa_0\[264] = \XBEE_UART:BUART:rx_postpoll\[97]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:datab_0\[265] = \XBEE_UART:BUART:rx_parity_bit\[214]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:a_0\[266] = \XBEE_UART:BUART:rx_postpoll\[97]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:b_0\[267] = \XBEE_UART:BUART:rx_parity_bit\[214]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_0\[269] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:eq_0\[270] = \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\[268]
+Removing Lhs of wire \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:eqi_0\[271] = \XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\[268]
+Removing Lhs of wire tmpOE__XBEE_RX_net_0[293] = one[4]
+Removing Lhs of wire tmpOE__XBEE_TX_net_0[298] = one[4]
+Removing Lhs of wire tmpOE__XBEE_RESET_net_0[305] = one[4]
+Removing Lhs of wire tmpOE__XBEE_SLEEP_RQ_net_0[311] = one[4]
+Removing Lhs of wire tmpOE__XBEE_RTS_net_0[317] = one[4]
+Removing Lhs of wire tmpOE__XBEE_CTS_net_0[323] = one[4]
+Removing Lhs of wire \UART:Net_61\[329] = \UART:Net_9\[328]
+Removing Lhs of wire \UART:BUART:tx_hd_send_break\[333] = zero[28]
+Removing Lhs of wire \UART:BUART:FinalParityType_1\[335] = zero[28]
+Removing Lhs of wire \UART:BUART:FinalParityType_0\[336] = zero[28]
+Removing Lhs of wire \UART:BUART:tx_ctrl_mark\[340] = zero[28]
+Removing Lhs of wire \UART:BUART:reset_reg_dp\[341] = \UART:BUART:reset_reg\[332]
+Removing Lhs of wire \UART:BUART:tx_status_6\[401] = zero[28]
+Removing Lhs of wire \UART:BUART:tx_status_5\[402] = zero[28]
+Removing Lhs of wire \UART:BUART:tx_status_4\[403] = zero[28]
+Removing Lhs of wire \UART:BUART:tx_status_1\[405] = \UART:BUART:tx_fifo_empty\[366]
+Removing Lhs of wire \UART:BUART:tx_status_3\[407] = \UART:BUART:tx_fifo_notfull\[365]
+Removing Lhs of wire tmpOE__Tx_1_net_0[414] = one[4]
+Removing Lhs of wire \XBEE_UART:BUART:reset_reg\\D\[419] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:tx_bitclk\\D\[424] = \XBEE_UART:BUART:tx_bitclk_enable_pre\[27]
+Removing Lhs of wire Net_37D[425] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:rx_bitclk\\D\[434] = \XBEE_UART:BUART:rx_bitclk_pre\[132]
+Removing Lhs of wire \XBEE_UART:BUART:rx_parity_error_pre\\D\[443] = \XBEE_UART:BUART:rx_parity_error_pre\[209]
+Removing Lhs of wire \XBEE_UART:BUART:rx_break_status\\D\[444] = zero[28]
+Removing Lhs of wire \UART:BUART:reset_reg\\D\[448] = zero[28]
+Removing Lhs of wire \UART:BUART:tx_bitclk\\D\[453] = \UART:BUART:tx_bitclk_enable_pre\[352]
+
+------------------------------------------------------
+Aliased 0 equations, 120 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'one' (cost = 0):
+one <=  ('1') ;
+
+Note:  Expanding virtual equation for 'zero' (cost = 0):
+zero <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:counter_load\' (cost = 3):
+\XBEE_UART:BUART:counter_load\ <= ((not \XBEE_UART:BUART:tx_state_1\ and not \XBEE_UART:BUART:tx_state_0\ and \XBEE_UART:BUART:tx_bitclk\)
+	OR (not \XBEE_UART:BUART:tx_state_1\ and not \XBEE_UART:BUART:tx_state_0\ and not \XBEE_UART:BUART:tx_state_2\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:tx_counter_tc\' (cost = 0):
+\XBEE_UART:BUART:tx_counter_tc\ <= (not \XBEE_UART:BUART:tx_counter_dp\);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:rx_addressmatch\' (cost = 0):
+\XBEE_UART:BUART:rx_addressmatch\ <= (\XBEE_UART:BUART:rx_addressmatch2\
+	OR \XBEE_UART:BUART:rx_addressmatch1\);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:rx_bitclk_pre\' (cost = 1):
+\XBEE_UART:BUART:rx_bitclk_pre\ <= ((not \XBEE_UART:BUART:rx_count_2\ and not \XBEE_UART:BUART:rx_count_1\ and not \XBEE_UART:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:rx_bitclk_pre16x\' (cost = 0):
+\XBEE_UART:BUART:rx_bitclk_pre16x\ <= ((not \XBEE_UART:BUART:rx_count_2\ and \XBEE_UART:BUART:rx_count_1\ and \XBEE_UART:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:rx_poll_bit1\' (cost = 1):
+\XBEE_UART:BUART:rx_poll_bit1\ <= ((not \XBEE_UART:BUART:rx_count_2\ and not \XBEE_UART:BUART:rx_count_1\ and \XBEE_UART:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:rx_poll_bit2\' (cost = 1):
+\XBEE_UART:BUART:rx_poll_bit2\ <= ((not \XBEE_UART:BUART:rx_count_2\ and not \XBEE_UART:BUART:rx_count_1\ and not \XBEE_UART:BUART:rx_count_0\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:pollingrange\' (cost = 4):
+\XBEE_UART:BUART:pollingrange\ <= ((not \XBEE_UART:BUART:rx_count_2\ and not \XBEE_UART:BUART:rx_count_1\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\' (cost = 0):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\ <= (MODIN1_0);
+
+Note:  Expanding virtual equation for 'add_vv_vv_MODGEN_1_0' (cost = 0):
+add_vv_vv_MODGEN_1_0 <= (not MODIN1_0);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_1\' (cost = 0):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:gta_1\' (cost = 0):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:gta_1\ <= (MODIN1_1);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_1\' (cost = 0):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_1\ <= (not MODIN1_1);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:gta_1\' (cost = 0):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:gta_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_6\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_6\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_5\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_5\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_5\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_5\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_4\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_4\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_4\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_4\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_3\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_3\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_3\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_3\ <= (MODIN4_6);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_2\' (cost = 1):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_2\ <= ((not MODIN4_6 and not MODIN4_5));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_2\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_2\ <= (MODIN4_6);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_1\' (cost = 2):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_1\ <= ((not MODIN4_6 and not MODIN4_4)
+	OR (not MODIN4_6 and not MODIN4_5));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_1\' (cost = 0):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:gta_1\ <= (MODIN4_6);
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_0\' (cost = 8):
+\XBEE_UART:BUART:sRX:MODULE_4:g2:a0:lta_0\ <= ((not MODIN4_6 and not MODIN4_4)
+	OR (not MODIN4_6 and not MODIN4_5));
+
+Note:  Expanding virtual equation for '\UART:BUART:counter_load\' (cost = 3):
+\UART:BUART:counter_load\ <= ((not \UART:BUART:tx_state_1\ and not \UART:BUART:tx_state_0\ and \UART:BUART:tx_bitclk\)
+	OR (not \UART:BUART:tx_state_1\ and not \UART:BUART:tx_state_0\ and not \UART:BUART:tx_state_2\));
+
+Note:  Expanding virtual equation for '\UART:BUART:tx_counter_tc\' (cost = 0):
+\UART:BUART:tx_counter_tc\ <= (not \UART:BUART:tx_counter_dp\);
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_0\' (cost = 4):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_2:g2:a0:lta_0\ <= ((not MODIN1_1 and not MODIN1_0));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_0\' (cost = 0):
+\XBEE_UART:BUART:sRX:s23Poll:MODULE_3:g2:a0:lta_0\ <= (not MODIN1_1);
+
+Note:  Expanding virtual equation for 'add_vv_vv_MODGEN_1_1' (cost = 2):
+add_vv_vv_MODGEN_1_1 <= ((not MODIN1_0 and MODIN1_1)
+	OR (not MODIN1_1 and MODIN1_0));
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:rx_postpoll\' (cost = 72):
+\XBEE_UART:BUART:rx_postpoll\ <= (MODIN1_1
+	OR (Net_7 and MODIN1_0));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\' (cost = 4):
+\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:xnor_array_0\ <= ((not Net_7 and not MODIN1_1 and not \XBEE_UART:BUART:rx_parity_bit\)
+	OR (not MODIN1_1 and not MODIN1_0 and not \XBEE_UART:BUART:rx_parity_bit\)
+	OR (MODIN1_1 and \XBEE_UART:BUART:rx_parity_bit\)
+	OR (Net_7 and MODIN1_0 and \XBEE_UART:BUART:rx_parity_bit\));
+
+Note:  Expanding virtual equation for '\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_1\' (cost = 4):
+\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:gx:u0:aeqb_1\ <= ((not Net_7 and not MODIN1_1 and not \XBEE_UART:BUART:rx_parity_bit\)
+	OR (not MODIN1_1 and not MODIN1_0 and not \XBEE_UART:BUART:rx_parity_bit\)
+	OR (MODIN1_1 and \XBEE_UART:BUART:rx_parity_bit\)
+	OR (Net_7 and MODIN1_0 and \XBEE_UART:BUART:rx_parity_bit\));
+
+
+Substituting virtuals - pass 4:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 37 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \XBEE_UART:BUART:rx_status_0\ to zero
+Aliasing \XBEE_UART:BUART:rx_status_6\ to zero
+Aliasing \XBEE_UART:BUART:rx_markspace_status\\D\ to zero
+Aliasing \XBEE_UART:BUART:rx_parity_error_status\\D\ to zero
+Aliasing \XBEE_UART:BUART:rx_addr_match_status\\D\ to zero
+Removing Rhs of wire \XBEE_UART:BUART:rx_bitclk_enable\[96] = \XBEE_UART:BUART:rx_bitclk\[144]
+Removing Lhs of wire \XBEE_UART:BUART:rx_status_0\[195] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:rx_status_6\[204] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:tx_ctrl_mark_last\\D\[426] = \XBEE_UART:BUART:tx_ctrl_mark_last\[86]
+Removing Lhs of wire \XBEE_UART:BUART:rx_markspace_status\\D\[438] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:rx_parity_error_status\\D\[439] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:rx_addr_match_status\\D\[441] = zero[28]
+Removing Lhs of wire \XBEE_UART:BUART:rx_markspace_pre\\D\[442] = \XBEE_UART:BUART:rx_markspace_pre\[208]
+Removing Lhs of wire \XBEE_UART:BUART:rx_parity_bit\\D\[447] = \XBEE_UART:BUART:rx_parity_bit\[214]
+Removing Lhs of wire \UART:BUART:tx_ctrl_mark_last\\D\[455] = \UART:BUART:tx_ctrl_mark_last\[410]
+
+------------------------------------------------------
+Aliased 0 equations, 10 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+Note:  Deleted unused equation:
+\XBEE_UART:BUART:sRX:MODULE_5:g1:a0:xneq\ <= ((not \XBEE_UART:BUART:rx_parity_bit\ and Net_7 and MODIN1_0)
+	OR (not MODIN1_1 and not MODIN1_0 and \XBEE_UART:BUART:rx_parity_bit\)
+	OR (not Net_7 and not MODIN1_1 and \XBEE_UART:BUART:rx_parity_bit\)
+	OR (not \XBEE_UART:BUART:rx_parity_bit\ and MODIN1_1));
+
+
+Eliminating unused logic - pass 2:
+
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\warp\bin/warp.exe
+Warp Arguments : -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj" -dcpsoc3 "RxTx example.v" -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 2s.378ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V3.0.0.3023, Family: PSoC3, Started at: Tuesday, 09 September 2014 20:13:06
+Options: -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Pablo\Google Drive\Development\PSoC Creator\XBee-PSoC\RxTx example.cydsn\RxTx example.cyprj -d CY8C5467AXI-LP108 RxTx example.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.040ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Converted constant MacroCell: Net_37 from registered to combinatorial
+    Converted constant MacroCell: \UART:BUART:reset_reg\ from registered to combinatorial
+    Converted constant MacroCell: \XBEE_UART:BUART:reset_reg\ from registered to combinatorial
+    Converted constant MacroCell: \XBEE_UART:BUART:rx_addr_match_status\ from registered to combinatorial
+    Converted constant MacroCell: \XBEE_UART:BUART:rx_break_status\ from registered to combinatorial
+    Converted constant MacroCell: \XBEE_UART:BUART:rx_markspace_status\ from registered to combinatorial
+    Converted constant MacroCell: \XBEE_UART:BUART:rx_status_2\ from registered to combinatorial
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'UART_IntClock'. Fanout=1, Signal=\UART:Net_9\
+    Digital Clock 1: Automatic-assigning  clock 'XBEE_UART_IntClock'. Fanout=1, Signal=\XBEE_UART:Net_9\
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+    Removed unused cell/equation 'Net_37:macrocell'
+    Removed unused cell/equation 'Net_76:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_addr_match_status\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_break_status\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_markspace_status\:macrocell'
+    Removed unused cell/equation 'Net_76D:macrocell'
+Done removing unused cells.
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+    UDB Clk/Enable \UART:BUART:ClkSync\: with output requested to be synchronous
+        ClockIn: UART_IntClock was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: UART_IntClock, EnableOut: Constant 1
+    UDB Clk/Enable \XBEE_UART:BUART:ClkSync\: with output requested to be synchronous
+        ClockIn: XBEE_UART_IntClock was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: XBEE_UART_IntClock, EnableOut: Constant 1
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+    Removed unused cell/equation '\UART:BUART:reset_reg\:macrocell'
+    Removed unused cell/equation '\UART:BUART:tx_mark\\D\:macrocell'
+    Removed unused cell/equation '\UART:BUART:tx_parity_bit\\D\:macrocell'
+    Removed unused cell/equation '\UART:BUART:tx_state_0\\D\:macrocell'
+    Removed unused cell/equation '\UART:BUART:tx_state_1\\D\:macrocell'
+    Removed unused cell/equation '\UART:BUART:tx_state_2\\D\:macrocell'
+    Removed unused cell/equation '\UART:BUART:txn\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:pollcount_0\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:pollcount_1\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:reset_reg\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_address_detected\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_bitclk_pre\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_last\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_load_fifo\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_state_0\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_state_1\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_state_2\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_state_3\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_state_stop1_reg\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_status_2\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:rx_stop_bit_error\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:tx_mark\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:tx_parity_bit\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:tx_state_0\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:tx_state_1\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:tx_state_2\\D\:macrocell'
+    Removed unused cell/equation '\XBEE_UART:BUART:txn\\D\:macrocell'
+    Removed unused cell/equation '__ZERO__:macrocell'
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+
+Removing duplicate macrocells
+    Removing \XBEE_UART:BUART:tx_parity_bit\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:tx_parity_bit\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:tx_parity_bit\ (fanout=0)
+
+    Removing \XBEE_UART:BUART:tx_mark\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:tx_mark\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:tx_mark\ (fanout=0)
+
+    Removing \XBEE_UART:BUART:tx_ctrl_mark_last\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:tx_ctrl_mark_last\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:tx_ctrl_mark_last\ (fanout=0)
+
+    Removing \XBEE_UART:BUART:rx_state_1\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:rx_state_1\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:rx_state_1\ (fanout=8)
+
+    Removing \XBEE_UART:BUART:rx_parity_error_pre\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:rx_parity_error_pre\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:rx_parity_error_pre\ (fanout=0)
+
+    Removing \XBEE_UART:BUART:rx_parity_bit\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:rx_parity_bit\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:rx_parity_bit\ (fanout=0)
+
+    Removing \XBEE_UART:BUART:rx_markspace_pre\, Duplicate of \XBEE_UART:BUART:rx_address_detected\ 
+    MacroCell: Name=\XBEE_UART:BUART:rx_markspace_pre\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:rx_markspace_pre\ (fanout=0)
+
+    Removing \UART:BUART:tx_parity_bit\, Duplicate of \UART:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\UART:BUART:tx_parity_bit\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \UART:BUART:tx_parity_bit\ (fanout=0)
+
+    Removing \UART:BUART:tx_mark\, Duplicate of \UART:BUART:tx_ctrl_mark_last\ 
+    MacroCell: Name=\UART:BUART:tx_mark\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \UART:BUART:tx_mark\ (fanout=0)
+
+
+Removing unused cells resulting from optimization
+    Removed unused cell/equation '\UART:BUART:tx_ctrl_mark_last\:macrocell'
+Done removing unused cells.
+End removing duplicate macrocells: used 1 pass
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = Tx_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Tx_1(0)__PA ,
+            input => Net_50 ,
+            pad => Tx_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = XBEE_CTS(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: SYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: True
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => XBEE_CTS(0)__PA ,
+            fb => Net_35 ,
+            pad => XBEE_CTS(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = XBEE_RESET(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => XBEE_RESET(0)__PA ,
+            pad => XBEE_RESET(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = XBEE_RTS(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => XBEE_RTS(0)__PA ,
+            input => Net_36 ,
+            pad => XBEE_RTS(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = XBEE_RX(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: SYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: True
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => XBEE_RX(0)__PA ,
+            fb => Net_7 ,
+            pad => XBEE_RX(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = XBEE_SLEEP_RQ(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => XBEE_SLEEP_RQ(0)__PA ,
+            pad => XBEE_SLEEP_RQ(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = XBEE_TX(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => XBEE_TX(0)__PA ,
+            input => Net_2 ,
+            pad => XBEE_TX(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=MODIN1_0, Mode=(D-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              !Net_7 * MODIN1_0
+            + !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              Net_7 * !MODIN1_0
+        );
+        Output = MODIN1_0 (fanout=5)
+
+    MacroCell: Name=MODIN1_1, Mode=(D-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              !Net_7 * MODIN1_1
+            + !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              Net_7 * !MODIN1_1 * MODIN1_0
+            + !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              MODIN1_1 * !MODIN1_0
+        );
+        Output = MODIN1_1 (fanout=4)
+
+    MacroCell: Name=Net_2, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:txn\
+        );
+        Output = Net_2 (fanout=1)
+
+    MacroCell: Name=Net_50, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:txn\
+        );
+        Output = Net_50 (fanout=1)
+
+    MacroCell: Name=\UART:BUART:counter_load_not\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:counter_load_not\ (fanout=1)
+
+    MacroCell: Name=\UART:BUART:tx_bitclk\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_bitclk_dp\
+        );
+        Output = \UART:BUART:tx_bitclk\ (fanout=6)
+
+    MacroCell: Name=\UART:BUART:tx_bitclk_enable_pre\, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_bitclk_dp\
+        );
+        Output = \UART:BUART:tx_bitclk_enable_pre\ (fanout=1)
+
+    MacroCell: Name=\UART:BUART:tx_state_0\, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_fifo_empty\ * !\UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_fifo_empty\ * \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_fifo_empty\ * \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_0\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:tx_state_0\ (fanout=7)
+
+    MacroCell: Name=\UART:BUART:tx_state_1\, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\ * !\UART:BUART:tx_counter_dp\
+            + \UART:BUART:tx_state_0\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:tx_state_1\ (fanout=7)
+
+    MacroCell: Name=\UART:BUART:tx_state_2\, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_state_2\ * \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\ * !\UART:BUART:tx_counter_dp\
+        );
+        Output = \UART:BUART:tx_state_2\ (fanout=6)
+
+    MacroCell: Name=\UART:BUART:tx_status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_fifo_empty\ * \UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:tx_status_0\ (fanout=1)
+
+    MacroCell: Name=\UART:BUART:tx_status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_fifo_notfull\
+        );
+        Output = \UART:BUART:tx_status_2\ (fanout=1)
+
+    MacroCell: Name=\UART:BUART:txn\, Mode=(D-Register)
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \UART:BUART:txn\ * \UART:BUART:tx_state_1\ * 
+              !\UART:BUART:tx_bitclk\
+            + \UART:BUART:txn\ * \UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_shift_out\ * !\UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_state_2\ * !\UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_shift_out\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\ * \UART:BUART:tx_counter_dp\
+        );
+        Output = \UART:BUART:txn\ (fanout=2)
+
+    MacroCell: Name=\XBEE_UART:BUART:counter_load_not\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:counter_load_not\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_address_detected\, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:rx_address_detected\ (fanout=8)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_bitclk_enable\, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              !\XBEE_UART:BUART:rx_count_0\
+        );
+        Output = \XBEE_UART:BUART:rx_bitclk_enable\ (fanout=6)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_counter_load\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+        );
+        Output = \XBEE_UART:BUART:rx_counter_load\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_last\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_7
+        );
+        Output = \XBEE_UART:BUART:rx_last\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_load_fifo\, Mode=(D-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_load_fifo\ (fanout=2)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_postpoll\, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_7 * MODIN1_0
+            + MODIN1_1
+        );
+        Output = \XBEE_UART:BUART:rx_postpoll\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_state_0\, Mode=(T-Register)
+        Total # of inputs        : 11
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              !\XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !Net_7 * !MODIN1_1 * !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              !\XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !MODIN1_1 * !MODIN1_0 * !\XBEE_UART:BUART:rx_address_detected\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_state_0\ (fanout=8)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_state_2\, Mode=(T-Register)
+        Total # of inputs        : 10
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * !Net_7 * 
+              !\XBEE_UART:BUART:rx_address_detected\ * 
+              \XBEE_UART:BUART:rx_last\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_state_2\ (fanout=7)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_state_3\, Mode=(T-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_state_3\ (fanout=7)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_state_stop1_reg\, Mode=(D-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !\XBEE_UART:BUART:rx_state_0\ * \XBEE_UART:BUART:rx_state_3\ * 
+              \XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+        );
+        Output = \XBEE_UART:BUART:rx_state_stop1_reg\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_status_3\, Mode=(D-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !Net_7 * !MODIN1_1 * !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !MODIN1_1 * !MODIN1_0 * !\XBEE_UART:BUART:rx_address_detected\
+        );
+        Output = \XBEE_UART:BUART:rx_status_3\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_status_4\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \XBEE_UART:BUART:rx_load_fifo\ * Net_36
+        );
+        Output = \XBEE_UART:BUART:rx_status_4\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:rx_status_5\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \XBEE_UART:BUART:rx_fifonotempty\ * 
+              \XBEE_UART:BUART:rx_state_stop1_reg\
+        );
+        Output = \XBEE_UART:BUART:rx_status_5\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_bitclk\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_bitclk_dp\
+        );
+        Output = \XBEE_UART:BUART:tx_bitclk\ (fanout=6)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_bitclk_enable_pre\, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_bitclk_dp\
+        );
+        Output = \XBEE_UART:BUART:tx_bitclk_enable_pre\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_state_0\, Mode=(D-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_fifo_empty\ * \XBEE_UART:BUART:tx_bitclk\ * 
+              !Net_35
+            + !\XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * 
+              !\XBEE_UART:BUART:tx_fifo_empty\ * 
+              !\XBEE_UART:BUART:tx_state_2\ * !\XBEE_UART:BUART:tx_bitclk\ * 
+              !Net_35
+            + \XBEE_UART:BUART:tx_state_0\ * !\XBEE_UART:BUART:tx_fifo_empty\ * 
+              \XBEE_UART:BUART:tx_state_2\ * !Net_35
+            + \XBEE_UART:BUART:tx_state_0\ * !\XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:tx_state_0\ (fanout=7)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_state_1\, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\ * !\XBEE_UART:BUART:tx_counter_dp\
+            + \XBEE_UART:BUART:tx_state_0\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:tx_state_1\ (fanout=7)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_state_2\, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_state_2\ * \XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\ * !\XBEE_UART:BUART:tx_counter_dp\
+        );
+        Output = \XBEE_UART:BUART:tx_state_2\ (fanout=6)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_fifo_empty\ * \XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:tx_status_0\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:tx_status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_fifo_notfull\
+        );
+        Output = \XBEE_UART:BUART:tx_status_2\ (fanout=1)
+
+    MacroCell: Name=\XBEE_UART:BUART:txn\, Mode=(D-Register)
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \XBEE_UART:BUART:txn\ * \XBEE_UART:BUART:tx_state_1\ * 
+              !\XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:txn\ * \XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_shift_out\ * !\XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_state_2\ * !\XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_shift_out\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\ * \XBEE_UART:BUART:tx_counter_dp\
+        );
+        Output = \XBEE_UART:BUART:txn\ (fanout=2)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+
+    ------------------------------------------------------------
+    Datapath listing
+    ------------------------------------------------------------
+
+    datapathcell: Name =\UART:BUART:sTX:TxShifter:u0\
+        PORT MAP (
+            clock => \UART:Net_9\ ,
+            cs_addr_2 => \UART:BUART:tx_state_1\ ,
+            cs_addr_1 => \UART:BUART:tx_state_0\ ,
+            cs_addr_0 => \UART:BUART:tx_bitclk_enable_pre\ ,
+            so_comb => \UART:BUART:tx_shift_out\ ,
+            f0_bus_stat_comb => \UART:BUART:tx_fifo_notfull\ ,
+            f0_blk_stat_comb => \UART:BUART:tx_fifo_empty\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\UART:BUART:sTX:sCLOCK:TxBitClkGen\
+        PORT MAP (
+            clock => \UART:Net_9\ ,
+            cs_addr_0 => \UART:BUART:counter_load_not\ ,
+            cl0_comb => \UART:BUART:tx_bitclk_dp\ ,
+            cl1_comb => \UART:BUART:tx_counter_dp\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\XBEE_UART:BUART:sRX:RxShifter:u0\
+        PORT MAP (
+            clock => \XBEE_UART:Net_9\ ,
+            cs_addr_2 => \XBEE_UART:BUART:rx_address_detected\ ,
+            cs_addr_1 => \XBEE_UART:BUART:rx_state_0\ ,
+            cs_addr_0 => \XBEE_UART:BUART:rx_bitclk_enable\ ,
+            route_si => \XBEE_UART:BUART:rx_postpoll\ ,
+            f0_load => \XBEE_UART:BUART:rx_load_fifo\ ,
+            f0_bus_stat_comb => \XBEE_UART:BUART:rx_fifonotempty\ ,
+            f0_blk_stat_comb => Net_36 );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000000000000000000000000000000000000000000000000001001000000000100000000000000010000001100000001000000000000000100100001000011111111000000001111111111111111101000000110001001000001111100000000000000001100"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\XBEE_UART:BUART:sTX:TxShifter:u0\
+        PORT MAP (
+            clock => \XBEE_UART:Net_9\ ,
+            cs_addr_2 => \XBEE_UART:BUART:tx_state_1\ ,
+            cs_addr_1 => \XBEE_UART:BUART:tx_state_0\ ,
+            cs_addr_0 => \XBEE_UART:BUART:tx_bitclk_enable_pre\ ,
+            so_comb => \XBEE_UART:BUART:tx_shift_out\ ,
+            f0_bus_stat_comb => \XBEE_UART:BUART:tx_fifo_notfull\ ,
+            f0_blk_stat_comb => \XBEE_UART:BUART:tx_fifo_empty\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    datapathcell: Name =\XBEE_UART:BUART:sTX:sCLOCK:TxBitClkGen\
+        PORT MAP (
+            clock => \XBEE_UART:Net_9\ ,
+            cs_addr_0 => \XBEE_UART:BUART:counter_load_not\ ,
+            cl0_comb => \XBEE_UART:BUART:tx_bitclk_dp\ ,
+            cl1_comb => \XBEE_UART:BUART:tx_counter_dp\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+
+    ------------------------------------------------------------
+    StatusI register listing
+    ------------------------------------------------------------
+
+    statusicell: Name =\UART:BUART:sTX:TxSts\
+        PORT MAP (
+            clock => \UART:Net_9\ ,
+            status_3 => \UART:BUART:tx_fifo_notfull\ ,
+            status_2 => \UART:BUART:tx_status_2\ ,
+            status_1 => \UART:BUART:tx_fifo_empty\ ,
+            status_0 => \UART:BUART:tx_status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0000001"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\XBEE_UART:BUART:sRX:RxSts\
+        PORT MAP (
+            clock => \XBEE_UART:Net_9\ ,
+            status_5 => \XBEE_UART:BUART:rx_status_5\ ,
+            status_4 => \XBEE_UART:BUART:rx_status_4\ ,
+            status_3 => \XBEE_UART:BUART:rx_status_3\ ,
+            interrupt => Net_20 );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "1011111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\XBEE_UART:BUART:sTX:TxSts\
+        PORT MAP (
+            clock => \XBEE_UART:Net_9\ ,
+            status_3 => \XBEE_UART:BUART:tx_fifo_notfull\ ,
+            status_2 => \XBEE_UART:BUART:tx_status_2\ ,
+            status_1 => \XBEE_UART:BUART:tx_fifo_empty\ ,
+            status_0 => \XBEE_UART:BUART:tx_status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0000001"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+
+    ------------------------------------------------------------
+    Count7 listing
+    ------------------------------------------------------------
+
+    count7cell: Name =\XBEE_UART:BUART:sRX:RxBitCounter\
+        PORT MAP (
+            clock => \XBEE_UART:Net_9\ ,
+            load => \XBEE_UART:BUART:rx_counter_load\ ,
+            count_6 => MODIN4_6 ,
+            count_5 => MODIN4_5 ,
+            count_4 => MODIN4_4 ,
+            count_3 => MODIN4_3 ,
+            count_2 => \XBEE_UART:BUART:rx_count_2\ ,
+            count_1 => \XBEE_UART:BUART:rx_count_1\ ,
+            count_0 => \XBEE_UART:BUART:rx_count_0\ ,
+            tc => \XBEE_UART:BUART:rx_count7_tc\ );
+        Properties:
+        {
+            cy_alt_mode = 0
+            cy_init_value = "0000000"
+            cy_period = "1110010"
+            cy_route_en = 1
+            cy_route_ld = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =XBEE_RX_INT
+        PORT MAP (
+            interrupt => Net_20 );
+        Properties:
+        {
+            int_type = "10"
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital clock dividers        :    2 :    6 :    8 :  25.00%
+Analog clock dividers         :    0 :    4 :    4 :   0.00%
+Pins                          :   10 :   62 :   72 :  13.89%
+UDB Macrocells                :   35 :  157 :  192 :  18.23%
+UDB Unique Pterms             :   62 :  322 :  384 :  16.15%
+UDB Total Pterms              :   75 :      :      : 
+UDB Datapath Cells            :    5 :   19 :   24 :  20.83%
+UDB Status Cells              :    3 :   21 :   24 :  12.50%
+            StatusI Registers :    3 
+UDB Control Cells             :    1 :   23 :   24 :   4.17%
+                 Count7 Cells :    1 
+DMA Channels                  :    0 :   24 :   24 :   0.00%
+Interrupts                    :    1 :   31 :   32 :   3.13%
+VIDAC Fixed Blocks            :    0 :    2 :    2 :   0.00%
+SC Fixed Blocks               :    0 :    2 :    2 :   0.00%
+Comparator Fixed Blocks       :    0 :    4 :    4 :   0.00%
+Opamp Fixed Blocks            :    0 :    2 :    2 :   0.00%
+CapSense Buffers              :    0 :    2 :    2 :   0.00%
+I2C Fixed Blocks              :    0 :    1 :    1 :   0.00%
+Timer Fixed Blocks            :    0 :    4 :    4 :   0.00%
+USB Fixed Blocks              :    0 :    1 :    1 :   0.00%
+LCD Fixed Blocks              :    0 :    1 :    1 :   0.00%
+EMIF Fixed Blocks             :    0 :    1 :    1 :   0.00%
+LPF Fixed Blocks              :    0 :    2 :    2 :   0.00%
+SAR Fixed Blocks              :    0 :    1 :    1 :   0.00%
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.799ms
+Info: mpr.M0037: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details. (App=cydsfit)
+Tech mapping phase: Elapsed time ==> 0s.981ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_6@[IOP=(0)][IoId=(6)] : Tx_1(0) (fixed)
+IO_5@[IOP=(5)][IoId=(5)] : XBEE_CTS(0) (fixed)
+IO_5@[IOP=(3)][IoId=(5)] : XBEE_RESET(0) (fixed)
+IO_7@[IOP=(5)][IoId=(7)] : XBEE_RTS(0) (fixed)
+IO_0@[IOP=(3)][IoId=(0)] : XBEE_RX(0) (fixed)
+IO_4@[IOP=(5)][IoId=(4)] : XBEE_SLEEP_RQ(0) (fixed)
+IO_4@[IOP=(3)][IoId=(4)] : XBEE_TX(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.065ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = False
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.656ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 1.3 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :   11 :   37 :   48 :  22.92%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            7.64
+                   Pterms :            6.00
+               Macrocells :            3.18
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.003ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.058ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Simulated Annealing">
+Annealing: Elapsed time ==> 0s.003ms
+<CYPRESSTAG name="Simulated Annealing Results">
+The seed used for moves was 114161200.
+Inital cost was 218, final cost is 218 (0.00% improvement).</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          6 :      10.33 :       5.83
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] is empty.
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(0,2)] is empty.
+UDB [UDB=(0,3)] is empty.
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] is empty.
+UDB [UDB=(1,3)] is empty.
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] contents:
+LAB@[UDB=(2,0)][LB=0] #macrocells=4, #inputs=11, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:rx_status_3\, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=0]
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !Net_7 * !MODIN1_1 * !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !MODIN1_1 * !MODIN1_0 * !\XBEE_UART:BUART:rx_address_detected\
+        );
+        Output = \XBEE_UART:BUART:rx_status_3\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=MODIN1_1, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              !Net_7 * MODIN1_1
+            + !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              Net_7 * !MODIN1_1 * MODIN1_0
+            + !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              MODIN1_1 * !MODIN1_0
+        );
+        Output = MODIN1_1 (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\XBEE_UART:BUART:rx_postpoll\, Mode=(Combinatorial) @ [UDB=(2,0)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_7 * MODIN1_0
+            + MODIN1_1
+        );
+        Output = \XBEE_UART:BUART:rx_postpoll\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\XBEE_UART:BUART:rx_bitclk_enable\, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              !\XBEE_UART:BUART:rx_count_0\
+        );
+        Output = \XBEE_UART:BUART:rx_bitclk_enable\ (fanout=6)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,0)][LB=1] #macrocells=1, #inputs=4, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=MODIN1_0, Mode=(D-Register) @ [UDB=(2,0)][LB=1][MC=0]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              !Net_7 * MODIN1_0
+            + !\XBEE_UART:BUART:rx_count_2\ * !\XBEE_UART:BUART:rx_count_1\ * 
+              Net_7 * !MODIN1_0
+        );
+        Output = MODIN1_0 (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\XBEE_UART:BUART:sRX:RxShifter:u0\
+    PORT MAP (
+        clock => \XBEE_UART:Net_9\ ,
+        cs_addr_2 => \XBEE_UART:BUART:rx_address_detected\ ,
+        cs_addr_1 => \XBEE_UART:BUART:rx_state_0\ ,
+        cs_addr_0 => \XBEE_UART:BUART:rx_bitclk_enable\ ,
+        route_si => \XBEE_UART:BUART:rx_postpoll\ ,
+        f0_load => \XBEE_UART:BUART:rx_load_fifo\ ,
+        f0_bus_stat_comb => \XBEE_UART:BUART:rx_fifonotempty\ ,
+        f0_blk_stat_comb => Net_36 );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000000000000000000000000000000000000000000000000001001000000000100000000000000010000001100000001000000000000000100100001000011111111000000001111111111111111101000000110001001000001111100000000000000001100"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,1)] contents:
+LAB@[UDB=(2,1)][LB=0] #macrocells=4, #inputs=11, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:rx_state_0\, Mode=(T-Register) @ [UDB=(2,1)][LB=0][MC=0]
+        Total # of inputs        : 11
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              !\XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !Net_7 * !MODIN1_1 * !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              !\XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !MODIN1_1 * !MODIN1_0 * !\XBEE_UART:BUART:rx_address_detected\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_state_0\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\XBEE_UART:BUART:rx_counter_load\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+        );
+        Output = \XBEE_UART:BUART:rx_counter_load\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\XBEE_UART:BUART:rx_state_3\, Mode=(T-Register) @ [UDB=(2,1)][LB=0][MC=2]
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * \XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_state_3\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\XBEE_UART:BUART:rx_address_detected\, Mode=(T-Register) @ [UDB=(2,1)][LB=0][MC=3]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        (
+            0
+        );
+        Output = \XBEE_UART:BUART:rx_address_detected\ (fanout=8)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,1)][LB=1] #macrocells=4, #inputs=12, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:rx_state_2\, Mode=(T-Register) @ [UDB=(2,1)][LB=1][MC=0]
+        Total # of inputs        : 10
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + !\XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * !Net_7 * 
+              !\XBEE_UART:BUART:rx_address_detected\ * 
+              \XBEE_UART:BUART:rx_last\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_state_2\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\XBEE_UART:BUART:rx_load_fifo\, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=1]
+        Total # of inputs        : 8
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:rx_state_0\ * 
+              \XBEE_UART:BUART:rx_bitclk_enable\ * 
+              \XBEE_UART:BUART:rx_state_3\ * !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_5
+            + \XBEE_UART:BUART:rx_state_0\ * !\XBEE_UART:BUART:rx_state_3\ * 
+              !\XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\ * !MODIN4_6 * !MODIN4_4
+        );
+        Output = \XBEE_UART:BUART:rx_load_fifo\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\XBEE_UART:BUART:rx_status_4\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \XBEE_UART:BUART:rx_load_fifo\ * Net_36
+        );
+        Output = \XBEE_UART:BUART:rx_status_4\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\XBEE_UART:BUART:rx_state_stop1_reg\, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=3]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !\XBEE_UART:BUART:rx_state_0\ * \XBEE_UART:BUART:rx_state_3\ * 
+              \XBEE_UART:BUART:rx_state_2\ * 
+              !\XBEE_UART:BUART:rx_address_detected\
+        );
+        Output = \XBEE_UART:BUART:rx_state_stop1_reg\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+count7cell: Name =\XBEE_UART:BUART:sRX:RxBitCounter\
+    PORT MAP (
+        clock => \XBEE_UART:Net_9\ ,
+        load => \XBEE_UART:BUART:rx_counter_load\ ,
+        count_6 => MODIN4_6 ,
+        count_5 => MODIN4_5 ,
+        count_4 => MODIN4_4 ,
+        count_3 => MODIN4_3 ,
+        count_2 => \XBEE_UART:BUART:rx_count_2\ ,
+        count_1 => \XBEE_UART:BUART:rx_count_1\ ,
+        count_0 => \XBEE_UART:BUART:rx_count_0\ ,
+        tc => \XBEE_UART:BUART:rx_count7_tc\ );
+    Properties:
+    {
+        cy_alt_mode = 0
+        cy_init_value = "0000000"
+        cy_period = "1110010"
+        cy_route_en = 1
+        cy_route_ld = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,2)] contents:
+LAB@[UDB=(2,2)][LB=0] #macrocells=4, #inputs=7, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\UART:BUART:tx_state_0\, Mode=(T-Register) @ [UDB=(2,2)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_fifo_empty\ * !\UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_fifo_empty\ * \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_fifo_empty\ * \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_0\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:tx_state_0\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\UART:BUART:tx_state_1\, Mode=(T-Register) @ [UDB=(2,2)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\ * !\UART:BUART:tx_counter_dp\
+            + \UART:BUART:tx_state_0\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:tx_state_1\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\UART:BUART:tx_bitclk\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_bitclk_dp\
+        );
+        Output = \UART:BUART:tx_bitclk\ (fanout=6)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\UART:BUART:tx_bitclk_enable_pre\, Mode=(Combinatorial) @ [UDB=(2,2)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_bitclk_dp\
+        );
+        Output = \UART:BUART:tx_bitclk_enable_pre\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,2)][LB=1] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:rx_last\, Mode=(D-Register) @ [UDB=(2,2)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_7
+        );
+        Output = \XBEE_UART:BUART:rx_last\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\UART:BUART:tx_status_2\, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_fifo_notfull\
+        );
+        Output = \UART:BUART:tx_status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\UART:BUART:sTX:sCLOCK:TxBitClkGen\
+    PORT MAP (
+        clock => \UART:Net_9\ ,
+        cs_addr_0 => \UART:BUART:counter_load_not\ ,
+        cl0_comb => \UART:BUART:tx_bitclk_dp\ ,
+        cl1_comb => \UART:BUART:tx_counter_dp\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] contents:
+LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:tx_state_0\, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_fifo_empty\ * \XBEE_UART:BUART:tx_bitclk\ * 
+              !Net_35
+            + !\XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * 
+              !\XBEE_UART:BUART:tx_fifo_empty\ * 
+              !\XBEE_UART:BUART:tx_state_2\ * !\XBEE_UART:BUART:tx_bitclk\ * 
+              !Net_35
+            + \XBEE_UART:BUART:tx_state_0\ * !\XBEE_UART:BUART:tx_fifo_empty\ * 
+              \XBEE_UART:BUART:tx_state_2\ * !Net_35
+            + \XBEE_UART:BUART:tx_state_0\ * !\XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:tx_state_0\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\XBEE_UART:BUART:counter_load_not\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=0][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:counter_load_not\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\XBEE_UART:BUART:tx_bitclk\, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_bitclk_dp\
+        );
+        Output = \XBEE_UART:BUART:tx_bitclk\ (fanout=6)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\XBEE_UART:BUART:tx_bitclk_enable_pre\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_bitclk_dp\
+        );
+        Output = \XBEE_UART:BUART:tx_bitclk_enable_pre\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:tx_state_2\, Mode=(T-Register) @ [UDB=(3,0)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_state_2\ * \XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\ * !\XBEE_UART:BUART:tx_counter_dp\
+        );
+        Output = \XBEE_UART:BUART:tx_state_2\ (fanout=6)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\XBEE_UART:BUART:tx_state_1\, Mode=(T-Register) @ [UDB=(3,0)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\ * !\XBEE_UART:BUART:tx_counter_dp\
+            + \XBEE_UART:BUART:tx_state_0\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:tx_state_1\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\XBEE_UART:BUART:tx_status_0\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=1][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              \XBEE_UART:BUART:tx_fifo_empty\ * \XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\
+        );
+        Output = \XBEE_UART:BUART:tx_status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\XBEE_UART:BUART:tx_status_2\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:tx_fifo_notfull\
+        );
+        Output = \XBEE_UART:BUART:tx_status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\XBEE_UART:BUART:sTX:sCLOCK:TxBitClkGen\
+    PORT MAP (
+        clock => \XBEE_UART:Net_9\ ,
+        cs_addr_0 => \XBEE_UART:BUART:counter_load_not\ ,
+        cl0_comb => \XBEE_UART:BUART:tx_bitclk_dp\ ,
+        cl1_comb => \XBEE_UART:BUART:tx_counter_dp\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\XBEE_UART:BUART:sTX:TxSts\
+    PORT MAP (
+        clock => \XBEE_UART:Net_9\ ,
+        status_3 => \XBEE_UART:BUART:tx_fifo_notfull\ ,
+        status_2 => \XBEE_UART:BUART:tx_status_2\ ,
+        status_1 => \XBEE_UART:BUART:tx_fifo_empty\ ,
+        status_0 => \XBEE_UART:BUART:tx_status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0000001"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,1)] contents:
+LAB@[UDB=(3,1)][LB=0] #macrocells=3, #inputs=4, #pterms=3
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:rx_status_5\, Mode=(Combinatorial) @ [UDB=(3,1)][LB=0][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \XBEE_UART:BUART:rx_fifonotempty\ * 
+              \XBEE_UART:BUART:rx_state_stop1_reg\
+        );
+        Output = \XBEE_UART:BUART:rx_status_5\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_50, Mode=(Combinatorial) @ [UDB=(3,1)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:txn\
+        );
+        Output = Net_50 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2, Mode=(Combinatorial) @ [UDB=(3,1)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\XBEE_UART:BUART:txn\
+        );
+        Output = Net_2 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\XBEE_UART:BUART:sTX:TxShifter:u0\
+    PORT MAP (
+        clock => \XBEE_UART:Net_9\ ,
+        cs_addr_2 => \XBEE_UART:BUART:tx_state_1\ ,
+        cs_addr_1 => \XBEE_UART:BUART:tx_state_0\ ,
+        cs_addr_0 => \XBEE_UART:BUART:tx_bitclk_enable_pre\ ,
+        so_comb => \XBEE_UART:BUART:tx_shift_out\ ,
+        f0_bus_stat_comb => \XBEE_UART:BUART:tx_fifo_notfull\ ,
+        f0_blk_stat_comb => \XBEE_UART:BUART:tx_fifo_empty\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\XBEE_UART:BUART:sRX:RxSts\
+    PORT MAP (
+        clock => \XBEE_UART:Net_9\ ,
+        status_5 => \XBEE_UART:BUART:rx_status_5\ ,
+        status_4 => \XBEE_UART:BUART:rx_status_4\ ,
+        status_3 => \XBEE_UART:BUART:rx_status_3\ ,
+        interrupt => Net_20 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "1011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,2)] contents:
+LAB@[UDB=(3,2)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\UART:BUART:txn\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \UART:BUART:txn\ * \UART:BUART:tx_state_1\ * 
+              !\UART:BUART:tx_bitclk\
+            + \UART:BUART:txn\ * \UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_shift_out\ * !\UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_state_2\ * !\UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_shift_out\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\ * \UART:BUART:tx_counter_dp\
+        );
+        Output = \UART:BUART:txn\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\UART:BUART:tx_state_2\, Mode=(T-Register) @ [UDB=(3,2)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (\UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_state_2\ * \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * \UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_bitclk\
+            + \UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\ * !\UART:BUART:tx_counter_dp\
+        );
+        Output = \UART:BUART:tx_state_2\ (fanout=6)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,2)][LB=1] #macrocells=3, #inputs=12, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\XBEE_UART:BUART:txn\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (\XBEE_UART:Net_9\) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              \XBEE_UART:BUART:txn\ * \XBEE_UART:BUART:tx_state_1\ * 
+              !\XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:txn\ * \XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_shift_out\ * !\XBEE_UART:BUART:tx_state_2\
+            + !\XBEE_UART:BUART:tx_state_1\ * \XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_state_2\ * !\XBEE_UART:BUART:tx_bitclk\
+            + \XBEE_UART:BUART:tx_state_1\ * !\XBEE_UART:BUART:tx_state_0\ * 
+              !\XBEE_UART:BUART:tx_shift_out\ * !\XBEE_UART:BUART:tx_state_2\ * 
+              \XBEE_UART:BUART:tx_bitclk\ * \XBEE_UART:BUART:tx_counter_dp\
+        );
+        Output = \XBEE_UART:BUART:txn\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\UART:BUART:counter_load_not\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=1][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              !\UART:BUART:tx_state_2\
+            + !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:counter_load_not\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\UART:BUART:tx_status_0\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=1][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\UART:BUART:tx_state_1\ * !\UART:BUART:tx_state_0\ * 
+              \UART:BUART:tx_fifo_empty\ * \UART:BUART:tx_state_2\ * 
+              \UART:BUART:tx_bitclk\
+        );
+        Output = \UART:BUART:tx_status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\UART:BUART:sTX:TxShifter:u0\
+    PORT MAP (
+        clock => \UART:Net_9\ ,
+        cs_addr_2 => \UART:BUART:tx_state_1\ ,
+        cs_addr_1 => \UART:BUART:tx_state_0\ ,
+        cs_addr_0 => \UART:BUART:tx_bitclk_enable_pre\ ,
+        so_comb => \UART:BUART:tx_shift_out\ ,
+        f0_bus_stat_comb => \UART:BUART:tx_fifo_notfull\ ,
+        f0_blk_stat_comb => \UART:BUART:tx_fifo_empty\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+statusicell: Name =\UART:BUART:sTX:TxSts\
+    PORT MAP (
+        clock => \UART:Net_9\ ,
+        status_3 => \UART:BUART:tx_fifo_notfull\ ,
+        status_2 => \UART:BUART:tx_status_2\ ,
+        status_1 => \UART:BUART:tx_fifo_empty\ ,
+        status_0 => \UART:BUART:tx_status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0000001"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] is empty.
+UDB [UDB=(3,5)] is empty.
+Intr hod @ [IntrHod=(0)]: 
+  Intr@ [IntrHod=(0)][IntrId=(0)] 
+    interrupt: Name =XBEE_RX_INT
+        PORT MAP (
+            interrupt => Net_20 );
+        Properties:
+        {
+            int_type = "10"
+        }
+Drq hod @ [DrqHod=(0)]: empty
+Port 0 contains the following IO cells:
+[IoId=6]: 
+Pin : Name = Tx_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Tx_1(0)__PA ,
+        input => Net_50 ,
+        pad => Tx_1(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 is empty
+Port 2 is empty
+Port 3 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = XBEE_RX(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: SYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: True
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => XBEE_RX(0)__PA ,
+        fb => Net_7 ,
+        pad => XBEE_RX(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = XBEE_TX(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => XBEE_TX(0)__PA ,
+        input => Net_2 ,
+        pad => XBEE_TX(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = XBEE_RESET(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => XBEE_RESET(0)__PA ,
+        pad => XBEE_RESET(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 4 is empty
+Port 5 contains the following IO cells:
+[IoId=4]: 
+Pin : Name = XBEE_SLEEP_RQ(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => XBEE_SLEEP_RQ(0)__PA ,
+        pad => XBEE_SLEEP_RQ(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = XBEE_CTS(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: SYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: True
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => XBEE_CTS(0)__PA ,
+        fb => Net_35 ,
+        pad => XBEE_CTS(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = XBEE_RTS(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => XBEE_RTS(0)__PA ,
+        input => Net_36 ,
+        pad => XBEE_RTS(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 6 is empty
+Port 12 is empty
+Port 15 is empty
+Fixed Function block hod @ [FFB(CAN,0)]: empty
+Fixed Function block hod @ [FFB(Cache,0)]: empty
+Fixed Function block hod @ [FFB(CapSense,0)]: empty
+Fixed Function block hod @ [FFB(Clock,0)]: 
+    Clock Block @ [FFB(Clock,0)]: 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            xtal => ClockBlock_XTAL ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            pllout => ClockBlock_PLL_OUT ,
+            imo => ClockBlock_IMO ,
+            dclk_glb_0 => \UART:Net_9\ ,
+            dclk_0 => \UART:Net_9_local\ ,
+            dclk_glb_1 => \XBEE_UART:Net_9\ ,
+            dclk_1 => \XBEE_UART:Net_9_local\ );
+        Properties:
+        {
+        }
+Fixed Function block hod @ [FFB(Comparator,0)]: empty
+Fixed Function block hod @ [FFB(DFB,0)]: empty
+Fixed Function block hod @ [FFB(DSM,0)]: empty
+Fixed Function block hod @ [FFB(Decimator,0)]: empty
+Fixed Function block hod @ [FFB(EMIF,0)]: empty
+Fixed Function block hod @ [FFB(I2C,0)]: empty
+Fixed Function block hod @ [FFB(LCD,0)]: empty
+Fixed Function block hod @ [FFB(LVD,0)]: empty
+Fixed Function block hod @ [FFB(PM,0)]: empty
+Fixed Function block hod @ [FFB(SC,0)]: empty
+Fixed Function block hod @ [FFB(SPC,0)]: empty
+Fixed Function block hod @ [FFB(Timer,0)]: empty
+Fixed Function block hod @ [FFB(USB,0)]: empty
+Fixed Function block hod @ [FFB(VIDAC,0)]: empty
+Fixed Function block hod @ [FFB(OpAmp,0)]: empty
+Fixed Function block hod @ [FFB(CsAbuf,0)]: empty
+Fixed Function block hod @ [FFB(Vref,0)]: empty
+Fixed Function block hod @ [FFB(LPF,0)]: empty
+Fixed Function block hod @ [FFB(SAR,0)]: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |                  | 
+Port | Pin | Fixed |      Type |       Drive Mode |             Name | Connections
+-----+-----+-------+-----------+------------------+------------------+------------
+   0 |   6 |     * |      NONE |         CMOS_OUT |          Tx_1(0) | In(Net_50)
+-----+-----+-------+-----------+------------------+------------------+------------
+   3 |   0 |     * |      NONE |     HI_Z_DIGITAL |       XBEE_RX(0) | FB(Net_7)
+     |   4 |     * |      NONE |         CMOS_OUT |       XBEE_TX(0) | In(Net_2)
+     |   5 |     * |      NONE |         CMOS_OUT |    XBEE_RESET(0) | 
+-----+-----+-------+-----------+------------------+------------------+------------
+   5 |   4 |     * |      NONE |         CMOS_OUT | XBEE_SLEEP_RQ(0) | 
+     |   5 |     * |      NONE |     HI_Z_DIGITAL |      XBEE_CTS(0) | FB(Net_35)
+     |   7 |     * |      NONE |         CMOS_OUT |      XBEE_RTS(0) | In(Net_36)
+----------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.007ms
+Digital Placement phase: Elapsed time ==> 1s.771ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+Routing successful.
+Digital Routing phase: Elapsed time ==> 3s.437ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream and API generation">
+Bitstream and API generation phase: Elapsed time ==> 0s.502ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream verification">
+Bitstream verification phase: Elapsed time ==> 0s.104ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in RxTx example_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.731ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.308ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 8s.631ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 8s.713ms
+API generation phase: Elapsed time ==> 1s.948ms
+Dependency generation phase: Elapsed time ==> 0s.020ms
+Cleanup phase: Elapsed time ==> 0s.010ms
