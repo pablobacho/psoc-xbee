@@ -36,12 +36,13 @@ int main()
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     XBEE_Start();
     
-    /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
+    CyGlobalIntEnable; /* Uncomment this line to enable global interrupts. */
+    
     for(;;)
     {
         /* Place your application code here. */
-        XBEE_ZigBeeTransmitRequest(&packet, frameId++, XBEE_BROADCAST_HW_ADDRESS, XBEE_BROADCAST_NWK_ADDRESS, 0, 0, payload, 4);
         CyDelay(3000);
+        XBEE_ZigBeeTransmitRequest(&packet, frameId++, XBEE_BROADCAST_HW_ADDRESS, XBEE_BROADCAST_NWK_ADDRESS, 0, 0, payload, 4);
     }
 }
 

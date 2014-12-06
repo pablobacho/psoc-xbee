@@ -58,6 +58,7 @@ SOFTWARE.
 #define XBEE_APIID_ROUTE_RECORD_INDICATOR               (0xA1u)
 #define XBEE_APIID_MANY_TO_ONE_RQ_INDICATOR             (0xA3u)
 
+    
 /*
 * XBEE_APIID_ZIGBEE_TRANSMIT_STATUS fields
 */
@@ -169,7 +170,30 @@ void XBEE_Wakeup(void) ;
 ***************************************/
 
 uint8_t XBEE_ZigBeeTransmitRequest(XBEE_packet_t * packet, uint8_t frameId, uint8_t * hwAddress, uint8_t * nwkAddress, uint8_t broadcastRadius, uint8_t options, uint8_t * RFData, uint8_t RFDataLen);
-uint8_t XBEE_Send(XBEE_packet_t * packet);
+
+
+/***************************************
+* AT functions
+***************************************/
+
+uint8_t XBEE_ATCommand(XBEE_packet_t * packet, uint8_t frameId, char * AT, uint8 * value, uint8 valueLen);
+uint8_t XBEE_ATCommandQueue(XBEE_packet_t * packet, uint8_t frameId, char * AT, uint8 * value, uint8 valueLen);
+
+
+/***************************************
+* Packet functions
+***************************************/
+
+uint8_t XBEE_Issue(XBEE_packet_t * packet);
+uint8_t XBEE_ReadPacket(XBEE_packet_t * packet);
+uint8_t XBEE_Checksum(XBEE_packet_t * packet);
+uint8_t XBEE_ReadApiId(XBEE_packet_t * packet);
+uint8_t XBEE_ReadFrameId(XBEE_packet_t * packet);
+uint8_t * XBEE_ReadNwkSourceAddress(XBEE_packet_t * packet);
+uint8_t * XBEE_ReadHwSourceAddress(XBEE_packet_t * packet);
+uint8_t * XBEE_ReadRFData(XBEE_packet_t * packet);
+uint8_t XBEE_ReadRFDataLen(XBEE_packet_t * packet);
+uint8_t XBEE_ReadDeliveryStatus(XBEE_packet_t * packet);
 
 
 /***************************************
@@ -184,25 +208,11 @@ uint8_t XBEE_RxIsIdle();
 void XBEE_RxBufferFlush();
 uint8_t XBEE_RxBufferRecycle(XBEE_packet_t * packet);
 
-/***************************************
-* Packet functions
-***************************************/
-
-uint8_t XBEE_ReadPacket(XBEE_packet_t * packet);
-uint8_t XBEE_ReadApiId(XBEE_packet_t * packet);
-uint8_t XBEE_ReadFrameId(XBEE_packet_t * packet);
-uint8_t * XBEE_ReadNwkSourceAddress(XBEE_packet_t * packet);
-uint8_t * XBEE_ReadHwSourceAddress(XBEE_packet_t * packet);
-uint8_t * XBEE_ReadRFData(XBEE_packet_t * packet);
-uint8_t XBEE_ReadRFDataLen(XBEE_packet_t * packet);
-uint8_t XBEE_ReadDeliveryStatus(XBEE_packet_t * packet);
-
 
 /***************************************
 * Common functions
 ***************************************/
 
-uint8_t XBEE_Checksum(XBEE_packet_t * packet); // Put in general
 
 CY_ISR_PROTO(XBEE_RX_ISR);
 

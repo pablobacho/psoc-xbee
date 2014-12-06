@@ -58,6 +58,7 @@ SOFTWARE.
 #define `$INSTANCE_NAME`_APIID_ROUTE_RECORD_INDICATOR               (0xA1u)
 #define `$INSTANCE_NAME`_APIID_MANY_TO_ONE_RQ_INDICATOR             (0xA3u)
 
+    
 /*
 * `$INSTANCE_NAME`_APIID_ZIGBEE_TRANSMIT_STATUS fields
 */
@@ -90,11 +91,24 @@ SOFTWARE.
 #define `$INSTANCE_NAME`_ZIGBEE_TRANSMIT_STATUS__DISCOVERY_STATUS__ADDRESS_ROUTE    (0x03u)
 #define `$INSTANCE_NAME`_ZIGBEE_TRANSMIT_STATUS__DISCOVERY_STATUS__EXTENDED_TIMEOUT (0x04u)
 
-#define `$INSTANCE_NAME`_PACKET_START                               (0x7Eu)
     
+/*
+* `$INSTANCE_NAME`_APIID_AT_RESPONSE fields
+*/
+/* Command Status */
+#define `$INSTANCE_NAME`_AT_RESPONSE__COMMAND_STATUS_OFFSET             04u
+#define `$INSTANCE_NAME`_AT_RESPONSE__COMMAND_STATUS__OK                (0x00u)
+#define `$INSTANCE_NAME`_AT_RESPONSE__COMMAND_STATUS__ERROR             (0x01u)
+#define `$INSTANCE_NAME`_AT_RESPONSE__COMMAND_STATUS__INVALID_COMMAND   (0x02u)
+#define `$INSTANCE_NAME`_AT_RESPONSE__COMMAND_STATUS__INVALID_PARAMTER  (0x03u)
+#define `$INSTANCE_NAME`_AT_RESPONSE__COMMAND_STATUS__TX_FAILURE        (0x04u)
+    
+    
+/* Params */
+#define `$INSTANCE_NAME`_PACKET_START                               (0x7Eu)
 #define `$INSTANCE_NAME`_PACKET_PAYLOAD_MAX                         80u
-
 #define `$INSTANCE_NAME`_RX_BUFFER_SIZE                             100u
+    
     
 /* `$INSTANCE_NAME`_RX_STATUS_REG bit fields */
 #define `$INSTANCE_NAME`_RX_STATUS_PACKET           (0x01u)
@@ -106,16 +120,19 @@ SOFTWARE.
 #define `$INSTANCE_NAME`_RX_STATUS_CHECKSUM_ERROR   (0x40u)
 #define `$INSTANCE_NAME`_RX_STATUS_UART_ERROR       (0x80u)
 
+    
 /* `$INSTANCE_NAME`_PACKET_REG bit fields */
 #define `$INSTANCE_NAME`_PACKET_STATUS_APIID_NOT_SUPPORTED  (0x01u)
 #define `$INSTANCE_NAME`_PACKET_STATUS_NOT_A_FIELD          (0x02u)
 #define `$INSTANCE_NAME`_PACKET_STATUS_VALUE_ERROR          (0x04u)
 
+    
 /* `$INSTANCE_NAME`_ReadPacket() return values */    
 #define `$INSTANCE_NAME`_READPACKET_OK              (0x00u)
 #define `$INSTANCE_NAME`_READPACKET_EMPTY           (0x01u)
 #define `$INSTANCE_NAME`_READPACKET_ERROR           (0x02u)
 
+    
 /* `$INSTANCE_NAME`_RxBufferRecycle() return values */
 #define `$INSTANCE_NAME`_RECYCLE_OK         (0x00u)
 #define `$INSTANCE_NAME`_RECYCLE_BUSY       (0x01u)
@@ -129,6 +146,7 @@ typedef struct `$INSTANCE_NAME`_packet_t {
     uint8_t payload[`$INSTANCE_NAME`_PACKET_PAYLOAD_MAX];
     uint8_t checksum;
 } `$INSTANCE_NAME`_packet_t;
+
 
 /***************************************
 * Forward declaration of variables
@@ -150,6 +168,7 @@ extern volatile uint8_t `$INSTANCE_NAME`_rxPacketOK;
 extern uint8_t `$INSTANCE_NAME`_BROADCAST_HW_ADDRESS[];
 extern uint8_t `$INSTANCE_NAME`_BROADCAST_NWK_ADDRESS[];
 
+
 /***************************************
 * Standard component functions
 ***************************************/
@@ -169,7 +188,30 @@ void `$INSTANCE_NAME`_Wakeup(void) ;
 ***************************************/
 
 uint8_t `$INSTANCE_NAME`_ZigBeeTransmitRequest(`$INSTANCE_NAME`_packet_t * packet, uint8_t frameId, uint8_t * hwAddress, uint8_t * nwkAddress, uint8_t broadcastRadius, uint8_t options, uint8_t * RFData, uint8_t RFDataLen);
-uint8_t `$INSTANCE_NAME`_Send(`$INSTANCE_NAME`_packet_t * packet);
+
+
+/***************************************
+* AT functions
+***************************************/
+
+uint8_t `$INSTANCE_NAME`_ATCommand(`$INSTANCE_NAME`_packet_t * packet, uint8_t frameId, char * AT, uint8 * value, uint8 valueLen);
+uint8_t `$INSTANCE_NAME`_ATCommandQueue(`$INSTANCE_NAME`_packet_t * packet, uint8_t frameId, char * AT, uint8 * value, uint8 valueLen);
+
+
+/***************************************
+* Packet functions
+***************************************/
+
+uint8_t `$INSTANCE_NAME`_Issue(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t `$INSTANCE_NAME`_ReadPacket(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t `$INSTANCE_NAME`_Checksum(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t `$INSTANCE_NAME`_ReadApiId(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t `$INSTANCE_NAME`_ReadFrameId(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t * `$INSTANCE_NAME`_ReadNwkSourceAddress(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t * `$INSTANCE_NAME`_ReadHwSourceAddress(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t * `$INSTANCE_NAME`_ReadRFData(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t `$INSTANCE_NAME`_ReadRFDataLen(`$INSTANCE_NAME`_packet_t * packet);
+uint8_t `$INSTANCE_NAME`_ReadDeliveryStatus(`$INSTANCE_NAME`_packet_t * packet);
 
 
 /***************************************
@@ -184,25 +226,11 @@ uint8_t `$INSTANCE_NAME`_RxIsIdle();
 void `$INSTANCE_NAME`_RxBufferFlush();
 uint8_t `$INSTANCE_NAME`_RxBufferRecycle(`$INSTANCE_NAME`_packet_t * packet);
 
-/***************************************
-* Packet functions
-***************************************/
-
-uint8_t `$INSTANCE_NAME`_ReadPacket(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t `$INSTANCE_NAME`_ReadApiId(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t `$INSTANCE_NAME`_ReadFrameId(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t * `$INSTANCE_NAME`_ReadNwkSourceAddress(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t * `$INSTANCE_NAME`_ReadHwSourceAddress(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t * `$INSTANCE_NAME`_ReadRFData(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t `$INSTANCE_NAME`_ReadRFDataLen(`$INSTANCE_NAME`_packet_t * packet);
-uint8_t `$INSTANCE_NAME`_ReadDeliveryStatus(`$INSTANCE_NAME`_packet_t * packet);
-
 
 /***************************************
 * Common functions
 ***************************************/
 
-uint8_t `$INSTANCE_NAME`_Checksum(`$INSTANCE_NAME`_packet_t * packet); // Put in general
 
 CY_ISR_PROTO(`$INSTANCE_NAME`_RX_ISR);
 

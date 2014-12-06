@@ -18,6 +18,10 @@
 *.cydsn/CortexM3/
 *.cydsn/DP8051/
 *.cydsn/Generated_Source/PSoCCreatorExportIDE.xml
+ComponentUpdateLog.txt
+
+# Project Archives
+Archive/*
 
 # Doxygen generated doc
 *.cydsn/Doc/
