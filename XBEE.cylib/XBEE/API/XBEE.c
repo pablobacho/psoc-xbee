@@ -79,7 +79,7 @@ volatile uint16_t `$INSTANCE_NAME`_rxBufferRead;
 
 /**
 * RX buffer TAIL pointer.
-* This variable points to the next byte to write after the last valid packet.
+* This variable points to the next writeable byte after the last valid packet.
 */
 volatile uint16_t `$INSTANCE_NAME`_rxBufferTail;
 
@@ -191,9 +191,9 @@ void `$INSTANCE_NAME`_Enable(void)
 {
     #if defined(CY_SCB_`$UART`_H)
         `$UART`_SetRxInterruptMode(`$UART`_INTR_RX_NOT_EMPTY);
-        `$UART`_SetCustomInterruptHandler(`$INSTANCE_NAME`_RX_ISR);
+        `$RX_INT`_StartEx(`$INSTANCE_NAME`_RX_ISR);
     #elif defined(CY_UART_`$UART`_H)
-        `$UART`_SetRxInterruptMode(`$INSTANCE_NAME`_UART_RX_STS_FIFO_NOTEMPTY);
+        `$UART`_SetRxInterruptMode(`$UART`_RX_STS_FIFO_NOTEMPTY);
         `$RX_INT`_StartEx(`$INSTANCE_NAME`_RX_ISR);
     #else
         #error "UART not defined"
@@ -232,8 +232,8 @@ void `$INSTANCE_NAME`_RestoreConfig(void)
 * This is the preferred API to prepare the component for sleep. The
 * XBEE_Sleep() API saves the current component state. Then it calls the
 * XBEE_Stop() function and calls XBEE_SaveConfig() to save the hardware
-* configuration. Call the UART_Sleep() function before calling the CyPmSleep()
-* or the CyPmHibernate() function. Refer to the PSoC Creator System Reference
+* configuration. Call the UART_Sleep() function before calling CyPmSleep()
+* or CyPmHibernate() functions. Refer to the PSoC Creator System Reference
 * Guide for more information about power management functions.
 *
 * @see XBEE_SaveConfig()
@@ -413,7 +413,11 @@ uint8_t `$INSTANCE_NAME`_ATCommandQueue(`$INSTANCE_NAME`_packet_t * packet, uint
 */
 uint8_t `$INSTANCE_NAME`_Issue(`$INSTANCE_NAME`_packet_t * packet) {
     #if defined(CY_SCB_`$UART`_H)
-        `$UART`_SpiUartPutArray((uint8_t *) packet, packet->len_l + (packet->len_h << 8) + 4);
+        `$UART`_UartPutChar(`$INSTANCE_NAME`_PACKET_START);
+        `$UART`_UartPutChar(packet->length >> 8);
+        `$UART`_UartPutChar(packet->length);
+        `$UART`_SpiUartPutArray(packet->payload, packet->length);
+        `$UART`_UartPutChar(packet->checksum);
     #elif defined(CY_UART_`$UART`_H)
         `$UART`_PutChar(`$INSTANCE_NAME`_PACKET_START);
         `$UART`_PutChar(packet->length >> 8);
@@ -942,9 +946,14 @@ uint8_t `$INSTANCE_NAME`_RxBufferRecycle(`$INSTANCE_NAME`_packet_t * packet) {
 
 #if defined(CY_SCB_`$UART`_H)
     
-    #error "SCB ISR not implemented"
+    #warning "SCB ISR not implemented"
+CY_ISR(`$INSTANCE_NAME`_RX_ISR) {
+    `$UART`_SpiUartClearRxBuffer();
+    `$UART`_ClearRxInterruptSource(0xFFFFFFFF);
+}
 
 #elif defined(CY_UART_`$UART`_H)
+    
 /**
 * RX Interrupt Service Routine.
 * 

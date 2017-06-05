@@ -1,0 +1,1149 @@
+Archive member included because of file (symbol)
+
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+                              .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o (cyfitter_cfg)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                              .\CortexM0\ARM_GCC_493\Debug\main.o (XBEE_Start)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (XBEE_RX_INT_StartEx)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (XBEE_RESET_Write)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (XBEE_SLEEP_RQ_Write)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o) (CyIntEnable)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o) (CySysWdtIsr)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+                              .\CortexM0\ARM_GCC_493\Debug\main.o (LED_Write)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o) (CyDelayCycles)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (XBEE_UART_Start)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (XBEE_UART_SpiUartClearRxBuffer)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (XBEE_UART_Sleep)
+.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o) (XBEE_UART_UartInit)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o) (__aeabi_uidiv)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                              .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o (__errno)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o) (memcpy)
+c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+XBEE_rxBufferHead   0x2               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxPacketOK     0x1               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxState        0x1               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+packet              0x54              .\CortexM0\ARM_GCC_493\Debug\main.o
+XBEE_rxBufferTail   0x2               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_RX_STATUS_REG  0x1               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxBuffer       0x64              .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxBufferRead   0x2               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_PACKET_STATUS_REG
+                    0x1               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxLength       0x2               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxBufferWrite  0x2               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+XBEE_rxChecksum     0x1               .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .text          0x00000000       0x78 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .data          0x00000000        0x4 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .text._exit    0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .text._sbrk    0x00000000       0x30 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_Stop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_SaveConfig
+                0x00000000        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RestoreConfig
+                0x00000000        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_Sleep
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_Wakeup
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ATCommand
+                0x00000000       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ATCommandQueue
+                0x00000000       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadPacketStatus
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadApiId
+                0x00000000        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadFrameId
+                0x00000000       0x34 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadNwkSourceAddress
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadHwSourceAddress
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadReceiveOptions
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadRFData
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadRFDataLen
+                0x00000000       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadDeliveryStatus
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadATResponse_Command
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadATResponse_Status
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadATResponse_Data
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadRxStatus
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RxBufferRead
+                0x00000000       0x4c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RxBufferPeek
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RxBufferSize
+                0x00000000       0x34 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_ReadPacket
+                0x00000000       0xe4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RxIsIdle
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RxBufferFlush
+                0x00000000       0x30 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text.XBEE_RxBufferRecycle
+                0x00000000      0x14c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_Interrupt
+                0x00000000        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_GetVector
+                0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_GetPriority
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_GetState
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_Start
+                0x00000000       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_Stop
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_SetPending
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text.XBEE_RX_INT_ClearPending
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .text.XBEE_RESET_SetDriveMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .text.XBEE_RESET_Read
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .text.XBEE_RESET_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .text.XBEE_RESET_SetInterruptMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .text.XBEE_RESET_ClearInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .text.XBEE_SLEEP_RQ_SetDriveMode
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .text.XBEE_SLEEP_RQ_Read
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .text.XBEE_SLEEP_RQ_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .text.XBEE_SLEEP_RQ_SetInterruptMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .text.XBEE_SLEEP_RQ_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .bss           0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysClkImoStart
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysClkImoStop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysClkWriteHfclkDirect
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysEnablePumpClock
+                0x00000000       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysClkGetSysclkSource
+                0x00000000       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysClkWriteSysclkDiv
+                0x00000000       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysLvdDisable
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysLvdGetInterruptSource
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysLvdClearInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysGetResetReason
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntDisable
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntSetPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntClearPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntSetPriority
+                0x00000000       0x4c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x2c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySoftwareReset
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysLvdEnable
+                0x00000000       0x44 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x4c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickStop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickEnableInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickEnable
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickDisableInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickSetReload
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickGetReload
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickGetValue
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickGetCountFlag
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickServiceCallbacks
+                0x00000000       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickClear
+                0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickInit
+                0x00000000       0x44 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickStart
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickSetCallback
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CySysTickGetCallback
+                0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text.CyGetUniqueId
+                0x00000000       0x70 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkIloEnabled
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkIloStart
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkIloStartMeasurement
+                0x00000000       0x34 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkIloStopMeasurement
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkIloCompensate
+                0x00000000      0x108 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetEnabledStatus
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtSetMode
+                0x00000000       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkLfclkPosedgeRestore
+                0x00000000       0x2c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtSetClearOnMatch
+                0x00000000       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetClearOnMatch
+                0x00000000       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtEnable
+                0x00000000       0x40 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtDisable
+                0x00000000       0x44 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtSetCascade
+                0x00000000       0x34 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetCascade
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtSetMatch
+                0x00000000       0x3c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtSetToggleBit
+                0x00000000       0x2c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetToggleBit
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetMatch
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetCount
+                0x00000000       0x3c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkLfclkPosedgeCatch
+                0x00000000       0x74 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysClkIloStop
+                0x00000000       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetInterruptSource
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtResetCounters
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtSetInterruptCallback
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtGetInterruptCallback
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtEnableCounterIsr
+                0x00000000       0x34 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtDisableCounterIsr
+                0x00000000       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWatchdogFeed
+                0x00000000       0x60 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysTimerDelayUntilMatch
+                0x00000000       0x6c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysTimerDelay
+                0x00000000       0x3c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .rodata        0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .text.LED_SetDriveMode
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .text.LED_Read
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .text.LED_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .text.LED_SetInterruptMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .text.LED_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text.XBEE_UART_ScbModeStop
+                0x00000000        0x8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text.XBEE_UART_Stop
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text.XBEE_UART_SetRxFifoLevel
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text.XBEE_UART_SetTxFifoLevel
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text.XBEE_UART_I2CSlaveNackGeneration
+                0x00000000       0x3c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text.XBEE_UART_SpiUartReadRxData
+                0x00000000        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text.XBEE_UART_SpiUartGetRxBufferSize
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text.XBEE_UART_SpiUartGetTxBufferSize
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text.XBEE_UART_SpiUartClearTxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text.XBEE_UART_SpiUartDisableIntRx
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text.XBEE_UART_SpiUartDisableIntTx
+                0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .bss           0x00000000        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .text.XBEE_UART_Sleep
+                0x00000000       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .text.XBEE_UART_Wakeup
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartStop
+                0x00000000       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartSetRxAddress
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartSetRxAddressMask
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartGetChar
+                0x00000000       0x2c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartGetByte
+                0x00000000       0x30 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartPutString
+                0x00000000       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text.XBEE_UART_UartPutCRLF
+                0x00000000       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .text          0x00000000      0x120 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+START GROUP
+LOAD .\CortexM0\ARM_GCC_493\Debug\main.o
+LOAD .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+LOAD .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+LOAD .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a
+LOAD C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_493\Debug\CyComponentLibrary.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000080                CY_FLASH_ROW_SIZE = 0x80
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000001                CY_APPL_MAX = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000000                CY_CHECKSUM_EXCLUDE_SIZE = ALIGN (0x0, CY_FLASH_ROW_SIZE)
+                0x00000000                CY_APP_FOR_STACK_AND_COPIER = 0x0
+                0x20000270                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20001000                PROVIDE (__cy_stack, (ORIGIN (ram) + 0x1000))
+                0x20000c00                PROVIDE (__cy_heap_end, (__cy_stack - 0x400))
+
+.cybootloader   0x00000000        0x0
+ *(.cybootloader)
+                0x00000000                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x00003f80                appl2_start = (appl1_start + ALIGN ((((0x8000 - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00000000                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+                0x00000001                cy_project_type_bootloader = (appl_start == 0x0)?0x1:0x0
+                0x00000000                cy_project_type_app_for_stack_and_copier = (CY_APP_FOR_STACK_AND_COPIER == 0x1)?0x1:0x0
+
+.text           0x00000000      0x9ea
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x00000000                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00000010                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00000010        0x8 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x00000010                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.psocinit)
+ .psocinit      0x00000018      0x12c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+                0x00000084                cyfitter_cfg
+                0x00000144                . = MAX (., 0x100)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000144       0x60 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .text.main     0x000001a4       0x5c .\CortexM0\ARM_GCC_493\Debug\main.o
+                0x000001a4                main
+ .text.IntDefaultHandler
+                0x00000200       0x10 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x00000200                IntDefaultHandler
+ .text.Start_c  0x00000210       0x48 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x00000210                Start_c
+ .text.initialize_psoc
+                0x00000258       0x48 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x00000258                initialize_psoc
+ .text.CYMEMZERO
+                0x000002a0        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .text.XBEE_RX_ISR
+                0x000002ac       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x000002ac                XBEE_RX_ISR
+ .text.XBEE_Init
+                0x000002c0       0x60 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x000002c0                XBEE_Init
+ .text.XBEE_Enable
+                0x00000320       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x00000320                XBEE_Enable
+ .text.XBEE_Start
+                0x00000340       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x00000340                XBEE_Start
+ .text.XBEE_Issue
+                0x00000364       0x2c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x00000364                XBEE_Issue
+ .text.XBEE_Checksum
+                0x00000390       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x00000390                XBEE_Checksum
+ .text.XBEE_ZigBeeTransmitRequest
+                0x000003ac       0x5c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x000003ac                XBEE_ZigBeeTransmitRequest
+ .text.XBEE_RX_INT_SetVector
+                0x00000408        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                0x00000408                XBEE_RX_INT_SetVector
+ .text.XBEE_RX_INT_SetPriority
+                0x00000414       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                0x00000414                XBEE_RX_INT_SetPriority
+ .text.XBEE_RX_INT_Enable
+                0x00000438       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                0x00000438                XBEE_RX_INT_Enable
+ .text.XBEE_RX_INT_Disable
+                0x00000448       0x10 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                0x00000448                XBEE_RX_INT_Disable
+ .text.XBEE_RX_INT_StartEx
+                0x00000458       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                0x00000458                XBEE_RX_INT_StartEx
+ .text.XBEE_RESET_Write
+                0x00000474       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+                0x00000474                XBEE_RESET_Write
+ .text.XBEE_SLEEP_RQ_Write
+                0x0000048c       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+                0x0000048c                XBEE_SLEEP_RQ_Write
+ .text.CyIntEnable
+                0x000004a4       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x000004a4                CyIntEnable
+ .text.CyHalt   0x000004b8        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x000004b8                CyHalt
+ .text.CyIntSetVector
+                0x000004bc       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x000004bc                CyIntSetVector
+ .text.CyDelay  0x000004e0       0x30 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x000004e0                CyDelay
+ .text.CyDelayUs
+                0x00000510       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x00000510                CyDelayUs
+ .text.CySysClkWriteImoFreq
+                0x00000524      0x164 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x00000524                CySysClkWriteImoFreq
+ .text.CySysWdtLocked
+                0x00000688       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .text.CySysWdtLock
+                0x0000069c       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+                0x0000069c                CySysWdtLock
+ .text.CySysWdtUnlock
+                0x000006b8       0x30 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+                0x000006b8                CySysWdtUnlock
+ .text.CySysWdtClearInterrupt
+                0x000006e8       0x4c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+                0x000006e8                CySysWdtClearInterrupt
+ .text.CySysWdtIsr
+                0x00000734       0xa4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+                0x00000734                CySysWdtIsr
+ .text.LED_Write
+                0x000007d8       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+                0x000007d8                LED_Write
+ .text          0x000007f0       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+                0x000007f0                CyDelayCycles
+                0x00000804                CyEnterCriticalSection
+                0x0000080c                CyExitCriticalSection
+ .text.XBEE_UART_ScbModePostEnable
+                0x00000818        0x8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .text.XBEE_UART_Init
+                0x00000820        0x8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+                0x00000820                XBEE_UART_Init
+ .text.XBEE_UART_Enable
+                0x00000828       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+                0x00000828                XBEE_UART_Enable
+ .text.XBEE_UART_Start
+                0x00000840       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+                0x00000840                XBEE_UART_Start
+ .text.XBEE_UART_SpiUartClearRxBuffer
+                0x00000860       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+                0x00000860                XBEE_UART_SpiUartClearRxBuffer
+ .text.XBEE_UART_SpiUartWriteTxData
+                0x00000880       0x1c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+                0x00000880                XBEE_UART_SpiUartWriteTxData
+ .text.XBEE_UART_SpiUartPutArray
+                0x0000089c       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+                0x0000089c                XBEE_UART_SpiUartPutArray
+ .text.XBEE_UART_UartInit
+                0x000008b4       0x98 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+                0x000008b4                XBEE_UART_UartInit
+ .text.XBEE_UART_UartPostEnable
+                0x0000094c       0x24 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+                0x0000094c                XBEE_UART_UartPostEnable
+ .text.__errno  0x00000970        0xc c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                0x00000970                __errno
+ .text.__libc_init_array
+                0x0000097c       0x4c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                0x0000097c                __libc_init_array
+ .text.memcpy   0x000009c8       0x12 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                0x000009c8                memcpy
+ .text.memset   0x000009da       0x10 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                0x000009da                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x000009ec        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000009ec        0x0
+ .iplt          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x000009ec        0x4
+ *(.eh_frame)
+ .eh_frame      0x000009ec        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .eh_frame      0x000009ec        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+                0x000009f0                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000009f0                __exidx_end = .
+
+.rodata         0x000009f0       0x78
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000009f0        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .rodata        0x000009fc       0x30 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x000009fc                cyImoFreqMhz2Reg
+ .rodata.str1.1
+                0x00000a2c        0x2 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x00000a30                . = ALIGN (0x4)
+ *fill*         0x00000a2e        0x2 
+ *(.init)
+ .init          0x00000a30        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x00000a30                _init
+ .init          0x00000a34        0x8 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+                0x00000a3c                . = ALIGN (0x4)
+                0x00000a3c                __preinit_array_start = .
+ *(.preinit_array)
+                0x00000a3c                __preinit_array_end = .
+                0x00000a3c                . = ALIGN (0x4)
+                0x00000a3c                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00000a3c        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .init_array    0x00000a40        0x4 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x00000a44                __init_array_end = .
+                0x00000a44                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00000a44        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x00000a44                _fini
+ .fini          0x00000a48        0x8 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+                0x00000a50                . = ALIGN (0x4)
+                0x00000a50                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00000a50        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00000a54                __fini_array_end = .
+                0x00000a54                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x00000a54                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x00000a54                . = ALIGN (0x4)
+                0x00000a54                __cy_regions = .
+                0x00000a54        0x4 LONG 0xa68 __cy_region_init_ram
+                0x00000a58        0x4 LONG 0x200000c8 __cy_region_start_data
+                0x00000a5c        0x4 LONG 0x90 __cy_region_init_size_ram
+                0x00000a60        0x4 LONG 0x118 __cy_region_zero_size_ram
+                0x00000a64                __cy_regions_end = .
+                0x00000a68                . = ALIGN (0x8)
+ *fill*         0x00000a64        0x4 
+                0x00000a68                _etext = .
+
+.cy_checksum_exclude
+                0x00000a68        0x0
+ *(.cy_checksum_exclude)
+
+.ramvectors     0x20000000       0xc0
+                0x20000000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x20000000       0xc0 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                0x20000000                CyRamVectors
+
+.noinit         0x200000c0        0x4
+ *(.noinit)
+ .noinit        0x200000c0        0x4 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+
+.data           0x200000c8       0x90 load address 0x00000a68
+                0x200000c8                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x200000c8        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .jcr           0x200000c8        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x200000cc        0x8 .\CortexM0\ARM_GCC_493\Debug\main.o
+                0x200000cc                payload
+ .data          0x200000d4        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x200000d4                XBEE_BROADCAST_NWK_ADDRESS
+ .data          0x200000d8       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                0x200000d8                CySysClkPumpConfig
+                0x200000dc                cydelay32kMs
+                0x200000e0                cydelayFreqKhz
+                0x200000e4                cydelayFreqMhz
+                0x200000e8                cydelayFreqHz
+ .data          0x200000ec        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .data.impure_data
+                0x200000f0       0x60 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000150        0x4 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x20000150                _impure_ptr
+                0x20000158                . = ALIGN (0x8)
+ *fill*         0x20000154        0x4 
+ *(.ram)
+                0x20000158                _edata = .
+
+.igot.plt       0x20000158        0x0 load address 0x00000af8
+ .igot.plt      0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.bss            0x20000158      0x118 load address 0x00000af8
+                0x20000158                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000158       0x1c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .bss           0x20000174        0xc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x20000174                XBEE_initVar
+                0x20000178                XBEE_BROADCAST_HW_ADDRESS
+ .bss           0x20000180       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .bss           0x200001a0        0x4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+                0x200001a0                XBEE_UART_initVar
+                0x200001a2                XBEE_UART_IntrTxMask
+ *(COMMON)
+ COMMON         0x200001a4       0x54 .\CortexM0\ARM_GCC_493\Debug\main.o
+                0x200001a4                packet
+ COMMON         0x200001f8       0x75 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                0x200001f8                XBEE_rxBufferHead
+                0x200001fa                XBEE_rxPacketOK
+                0x200001fb                XBEE_rxState
+                0x200001fc                XBEE_rxBufferTail
+                0x200001fe                XBEE_RX_STATUS_REG
+                0x20000200                XBEE_rxBuffer
+                0x20000264                XBEE_rxBufferRead
+                0x20000266                XBEE_PACKET_STATUS_REG
+                0x20000268                XBEE_rxLength
+                0x2000026a                XBEE_rxBufferWrite
+                0x2000026c                XBEE_rxChecksum
+                0x20000270                . = ALIGN (0x8)
+ *fill*         0x2000026d        0x3 
+ *(.ram.b)
+                0x20000270                _end = .
+                0x20000270                __end = .
+                0x20000270                PROVIDE (end, .)
+                0x20000270                PROVIDE (__bss_end__, .)
+                0x00000a68                __cy_region_init_ram = LOADADDR (.data)
+                0x00000090                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x00000118                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x20000270       0x80 load address 0x00000af8
+                0x20000270                . = _end
+                0x200002f0                . = (. + 0x80)
+ *fill*         0x20000270       0x80 
+                0x200002f0                __cy_heap_limit = .
+
+.stack          0x20000c00      0x400
+                0x20000c00                __cy_stack_limit = .
+                0x20001000                . = (. + 0x400)
+ *fill*         0x20000c00      0x400 
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+                0x00000000                cy_checksum_exclude_size = (CY_APPL_LOADABLE == 0x1)?SIZEOF (.cy_checksum_exclude):0x0
+                0x00000001                ASSERT ((cy_checksum_exclude_size <= CY_CHECKSUM_EXCLUDE_SIZE), CY_BOOT: Section .cy_checksum_exclude size exceedes specified limit.)
+                0x00007fc0                cyloadermeta_start = (cy_project_type_bootloader || cy_project_type_app_for_stack_and_copier)?(0x8000 - CY_METADATA_SIZE):0xf0000000
+
+.cyloadermeta
+ *(.cyloadermeta)
+                0x00007fc0                cyloadablemeta_start = cy_project_type_app_for_stack_and_copier?((0x8000 - CY_FLASH_ROW_SIZE) - CY_METADATA_SIZE):((0x8000 - (CY_FLASH_ROW_SIZE * (CY_APPL_NUM - 0x1))) - CY_METADATA_SIZE)
+
+.cyloadablemeta
+ *(.cyloadablemeta)
+
+.cyflashprotect
+                0x90400000       0x20
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000       0x20 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+                0x90500000                cy_metadata
+
+.cychipprotect  0x90600000        0x4
+ *(.cychipprotect)
+ .cychipprotect
+                0x90600000        0x4 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+                0x90600000                cy_meta_chipprotect
+
+.rel.dyn        0x00000af8        0x0 load address 0x90600004
+ .rel.iplt      0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x750
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_aranges
+                0x00000020       0x18 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .debug_aranges
+                0x00000038       0x48 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_aranges
+                0x00000080       0x30 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_aranges
+                0x000000b0      0x128 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_aranges
+                0x000001d8       0x80 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_aranges
+                0x00000258       0x48 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_aranges
+                0x000002a0       0x48 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_aranges
+                0x000002e8      0x180 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_aranges
+                0x00000468      0x138 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_aranges
+                0x000005a0       0x48 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_aranges
+                0x000005e8       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x00000608       0x60 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_aranges
+                0x00000668       0x60 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_aranges
+                0x000006c8       0x28 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .debug_aranges
+                0x000006f0       0x60 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3f17
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x28d .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_info    0x0000028d       0xfe .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .debug_info    0x0000038b      0x39a .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_info    0x00000725      0x294 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_info    0x000009b9      0xcb7 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_info    0x00001670      0x300 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_info    0x00001970      0x19b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_info    0x00001b0b      0x19d .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_info    0x00001ca8      0xb07 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_info    0x000027af      0xcfc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_info    0x000034ab      0x19d .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_info    0x00003648       0x8b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .debug_info    0x000036d3      0x239 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_info    0x0000390c      0x219 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_info    0x00003b25      0x12e .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .debug_info    0x00003c53      0x2c4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.debug_abbrev   0x00000000     0x1434
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x13c .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_abbrev  0x0000013c       0x5d .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .debug_abbrev  0x00000199      0x1e6 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_abbrev  0x0000037f      0x18c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_abbrev  0x0000050b      0x29a .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_abbrev  0x000007a5      0x1b4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_abbrev  0x00000959       0xc8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_abbrev  0x00000a21       0xc8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_abbrev  0x00000ae9      0x20d .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_abbrev  0x00000cf6      0x23b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_abbrev  0x00000f31       0xc8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_abbrev  0x00000ff9       0x14 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x0000100d       0xed .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_abbrev  0x000010fa      0x14f .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_abbrev  0x00001249       0xae .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .debug_abbrev  0x000012f7      0x13d .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.debug_line     0x00000000     0x1b63
+ *(.debug_line)
+ .debug_line    0x00000000      0x193 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_line    0x00000193       0x51 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .debug_line    0x000001e4      0x24e .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_line    0x00000432      0x133 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_line    0x00000565      0x4fe .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_line    0x00000a63      0x157 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_line    0x00000bba       0xc1 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_line    0x00000c7b       0xc5 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_line    0x00000d40      0x460 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_line    0x000011a0      0x467 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_line    0x00001607       0xbb .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_line    0x000016c2       0x69 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .debug_line    0x0000172b      0x131 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_line    0x0000185c      0x11f .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_line    0x0000197b       0x8d .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .debug_line    0x00001a08      0x15b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.debug_frame    0x00000000     0x1250
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_frame   0x00000030       0xbc .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_frame   0x000000ec       0x68 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_frame   0x00000154      0x384 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_frame   0x000004d8      0x110 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_frame   0x000005e8       0x70 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_frame   0x00000658       0x70 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_frame   0x000006c8      0x3e0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_frame   0x00000aa8      0x3a8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_frame   0x00000e50       0x70 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_frame   0x00000ec0       0xe8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_frame   0x00000fa8       0xb0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_frame   0x00001058       0x48 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .debug_frame   0x000010a0       0xd4 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .debug_frame   0x00001174       0x20 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001194       0x20 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000011b4       0x28 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000011dc       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00001208       0x28 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00001230       0x20 c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x1985
+ *(.debug_str)
+ .debug_str     0x00000000      0x201 .\CortexM0\ARM_GCC_493\Debug\main.o
+                                0x24b (size before relaxing)
+ .debug_str     0x00000201       0x59 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+                                0x1c9 (size before relaxing)
+ .debug_str     0x0000025a      0x15a .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+                                0x2f0 (size before relaxing)
+ .debug_str     0x000003b4       0x9b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+                                0x246 (size before relaxing)
+ .debug_str     0x0000044f      0x4a8 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+                                0x711 (size before relaxing)
+ .debug_str     0x000008f7      0x17a .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+                                0x32d (size before relaxing)
+ .debug_str     0x00000a71       0xc2 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+                                0x254 (size before relaxing)
+ .debug_str     0x00000b33       0xab .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+                                0x269 (size before relaxing)
+ .debug_str     0x00000bde      0x47c .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+                                0x6b3 (size before relaxing)
+ .debug_str     0x0000105a      0x52b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+                                0x72c (size before relaxing)
+ .debug_str     0x00001585       0x6f .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+                                0x223 (size before relaxing)
+ .debug_str     0x000015f4      0x14a .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+                                0x2ed (size before relaxing)
+ .debug_str     0x0000173e       0xf0 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+                                0x2ef (size before relaxing)
+ .debug_str     0x0000182e       0x5b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+                                0x219 (size before relaxing)
+ .debug_str     0x00001889       0xfc .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+                                0x337 (size before relaxing)
+
+.debug_loc      0x00000000     0x1d85
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x2a .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_loc     0x0000002a      0x14f .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_loc     0x00000179       0xa9 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_loc     0x00000222      0x70b .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_loc     0x0000092d       0x82 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_loc     0x000009af       0x81 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_loc     0x00000a30       0xa2 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_loc     0x00000ad2      0x5b5 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_loc     0x00001087      0x9d5 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_loc     0x00001a5c       0xa2 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_loc     0x00001afe       0x7e .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_loc     0x00001b7c       0x96 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_loc     0x00001c12      0x173 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0x638
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .debug_ranges  0x00000010       0x38 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .debug_ranges  0x00000048       0x20 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .debug_ranges  0x00000068      0x118 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .debug_ranges  0x00000180       0x70 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .debug_ranges  0x000001f0       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .debug_ranges  0x00000228       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .debug_ranges  0x00000260      0x170 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .debug_ranges  0x000003d0      0x128 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .debug_ranges  0x000004f8       0x38 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .debug_ranges  0x00000530       0x50 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .debug_ranges  0x00000580       0x50 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .debug_ranges  0x000005d0       0x18 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .debug_ranges  0x000005e8       0x50 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 .\CortexM0\ARM_GCC_493\Debug\main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x31 .\CortexM0\ARM_GCC_493\Debug\main.o
+ .ARM.attributes
+                0x00000096       0x31 .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+ .ARM.attributes
+                0x000000c7       0x31 .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+ .ARM.attributes
+                0x000000f8       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(cyfitter_cfg.o)
+ .ARM.attributes
+                0x00000129       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE.o)
+ .ARM.attributes
+                0x0000015a       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RX_INT.o)
+ .ARM.attributes
+                0x0000018b       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_RESET.o)
+ .ARM.attributes
+                0x000001bc       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_SLEEP_RQ.o)
+ .ARM.attributes
+                0x000001ed       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLib.o)
+ .ARM.attributes
+                0x0000021e       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyLFClk.o)
+ .ARM.attributes
+                0x0000024f       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(LED.o)
+ .ARM.attributes
+                0x00000280       0x21 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x000002a1       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART.o)
+ .ARM.attributes
+                0x000002d2       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_SPI_UART.o)
+ .ARM.attributes
+                0x00000303       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_PM.o)
+ .ARM.attributes
+                0x00000334       0x31 .\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.a(XBEE_UART_UART.o)
+ .ARM.attributes
+                0x00000365       0x1e c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000383       0x1e c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000003a1       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000003cd       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000003f9       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000425       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000451       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000047d       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004a9       0x2c c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x000004d5       0x1e c:/program files (x86)/cypress/psoc creator/4.0/psoc creator/import/gnu/arm/4.9.3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(.\CortexM0\ARM_GCC_493\Debug\PSoC4200 Tx Example.elf elf32-littlearm)

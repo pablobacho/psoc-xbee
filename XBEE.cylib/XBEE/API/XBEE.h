@@ -32,6 +32,9 @@ SOFTWARE.
 #include "string.h"
     
 #include "`$UART`.h"
+#if defined(CY_SCB_`$UART`_H)
+    #include "`$UART`_SPI_UART.h"
+#endif
 #include "`$RESET`.h"
 #include "`$SLEEP_RQ`.h"
 #include "`$RX_INT`.h"    
